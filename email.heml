@@ -1,0 +1,13 @@
+<heml>
+  <head>
+    <subject>Company</subject>
+    <style>
+      h1 { color: DarkViolet; }
+    </style>
+  </head>
+  <body>
+    <container>
+      <div mc:edit="text-box"><h1>Test</h1></div>
+    </container>
+  </body>
+</heml>

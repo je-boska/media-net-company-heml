@@ -1,0 +1,11 @@
+{
+  "name": "company-heml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JE Boska",
+  "license": "MIT",
+  "scripts": {
+    "build": "heml build email.heml",
+    "dev": "heml develop email.heml --open"
+  }
+}
