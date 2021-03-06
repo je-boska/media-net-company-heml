@@ -3,8 +3,12 @@
     <subject>media:net berlinbrandenburg - Neuigkeiten</subject>
     <preview>Neuigkeiten aus dem Netzwerk, für das Netzwerk.</preview>
     <style>
-      h1 {
+      h1, h2 {
+        margin: 0px;
         color: #125da7;
+      }
+      p {
+        font-size: 12px;
       }
       column {
         padding: 0 10px;
@@ -13,16 +17,19 @@
   </head>
   <body>
     <container>
+
       <row>
         <column>
           <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/95279adc-163a-4c1c-98de-2640112bc36a.png" alt="media net header" width="100%" />
         </column>
       </row>
+
       <row>
         <column>
-          <p style="text-align: right;">date</p>
+          <h4 style="text-align: right;">*|DATE:d / m / y|*</h4>
         </column>
       </row>
+
       <row style="padding-bottom: 30px;">
         <column>
           <div mc:edit="intro">
@@ -39,10 +46,16 @@
           </div>
         </column>
       </row>
-      <div style="height: 4px; background-color: #d2dfed; margin: 0px 10px;"></div>
-      <row>
+
+      <div style="height: 4px; border-radius: 4px; background-color: #d2dfed; margin: 0px 10px 20px 10px;"></div>
+      
+      <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
+      <row style="direction: rtl;">
         <column>
-          <div mc:edit="article-left">
+          <img heml-ignore mc:edit="article-left-img" style="max-width: 100%; border-radius: 15px;" src="https://ci4.googleusercontent.com/proxy/lZtPGOQ_7j9UAkY9RclZfFhmsjTU5fct4wvAZfyVdhuWkN5sPuB53nVRRxfXPGZAUTv6kjuBZGZtFenk1OhNge7vtR8b3F4qeJ0xG6s_tYHitLosLN_Lbt7wtiUUOoJU20s0gKvzFl5ppyD2Ls4cSTItsNTdTA=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
+        </column>
+        <column>
+          <div mc:edit="article-left" style="direction: ltr;">
             <h1>1.</h1>
             <h3>Topnews</h3>
             <p>
@@ -50,11 +63,11 @@
             </p>
           </div>
         </column>
-        <column>
-          <img heml-ignore mc:edit="article-left-img" style="max-width: 100%; border-radius: 15px;" src="https://ci4.googleusercontent.com/proxy/lZtPGOQ_7j9UAkY9RclZfFhmsjTU5fct4wvAZfyVdhuWkN5sPuB53nVRRxfXPGZAUTv6kjuBZGZtFenk1OhNge7vtR8b3F4qeJ0xG6s_tYHitLosLN_Lbt7wtiUUOoJU20s0gKvzFl5ppyD2Ls4cSTItsNTdTA=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
-        </column>
       </row>
-      <row>
+      </div>
+
+      <div mc:repeatable="topnews-article" mc:variant="Topnews Article Right">
+      <row class="article">
         <column>
           <img heml-ignore mc:edit="article-right-img" style="max-width: 100%; border-radius: 15px;" src="https://ci3.googleusercontent.com/proxy/Vcaqbt2wwmOV_OyjNfi10gV8XLtgVioxCpXbbQcEj8RbGsKKuENT9rljRkGV-np_nwNoVX_mAZ_iMwtEuq6QG1TX3qFteMpnT8XGS9yUF0NLKTsrMtAQn66BJPIs7IOtIP3RDcgRg86ZUj6x-SUSJ6M1xT5V_g=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="illustration" />
         </column>
@@ -68,6 +81,49 @@
           </div>
         </column>
       </row>
+      </div>
+
+      <div style="text-align: center; background-color: #d2dfed; margin: 20px 10px; border-radius: 10px;">
+        <h2 style="padding: 20px;">NEWS - INITIATIVEN</h2>
+      </div>
+
+      <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
+      <row style="direction: rtl;">
+        <column>
+          <img heml-ignore mc:edit="initiativen-article-right-img" style="max-width: 100%; border-radius: 15px;" src="https://ci4.googleusercontent.com/proxy/-cS9aG4sNyxrXCj3yimJffND5UjiS7vmw0Oz9PeEBR9mYpOYViADUzjEtW-eh4vpja2Vif8JyoiE0q_ydaj37xvGVlvF8DLI94ESII4tpnEA7L58A7UJIh7CptGaayLS2uoEBt5Gyu9sdSaVfD42nbTuhK7QRw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
+        </column>
+        <column>
+          <div mc:edit="initiativen-article-right" style="direction: ltr;">
+            <h5><i>Ca$h me if you can</i></h5>
+            <p>
+              Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein.
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
+      <row>
+        <column>
+          <img heml-ignore mc:edit="initiativen-article-left-img" style="max-width: 100%; border-radius: 15px;" src="https://ci6.googleusercontent.com/proxy/HqE9b6S6idwongqoqMxBxj7PyCrRdYJ4wD6twQqwA0QYytqjkBq6Y4YUGJDI9jiqKkodrf6EaVPbyLJojvKpa7b6HgHkqalGEPP_Aoqt6LXdAEysVt19n3kKqq2jS_tgxbm_aYcjB3FQgqlyPCmmjtDivcza_A=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
+        </column>
+        <column>
+          <div mc:edit="initiativen-article-left">
+            <h5><i>Digital Lunch</i></h5>
+            <h5>040 meets 030 #6</h5>
+            <p>
+              Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein.
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <div style="text-align: center; background-color: #d2dfed; margin: 20px 10px; border-radius: 10px;">
+        <h2 style="padding: 20px;">MITGLIEDER - NEWS</h2>
+      </div>
+
     </container>
   </body>
 </heml>

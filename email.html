@@ -114,7 +114,7 @@
                           <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                             <tr class="row__row">
                               <td class="column col-sm-12" width="600" style="padding: 0 10px;width: 100%" align="left" valign="top">
-                                <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; font-size: 16px; line-height: 20px; text-align: right;">date</p>
+                                <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; text-align: right;">*|DATE:d / m / y|*</h4>
                               </td>
                             </tr>
                           </table>
@@ -124,44 +124,89 @@
                             <tr class="row__row">
                               <td class="column col-sm-12" width="600" style="padding: 0 10px;width: 100%" align="left" valign="top">
                                 <div mc:edit="intro">
-                                  <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; font-size: 16px; line-height: 20px;"> In diesem Newsletter gibt es Informationen zu den Themen ... <br /><br /> Ic tem am dolor solorest vit voloreprem qui dionseq uatinctia dolore aruptat vel eum, simagnate pre, tes vo- luptatet ditas alitatent minimus expla non rem idel iur rempore volo occus ad qui aut ut qui to tem vent dolorer feribusae mo torenet exero totaernam que landae viti berum quo tem nonem et estio. Ita volupta tiandelique reicidi susa conet mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? Et remoditas aria culparum aritatem dolore estis ut dolorro rrorehe ndent. Genduci magnam etur andi <br /><br /> Ihr media:net berlinbrandenburg! </p>
+                                  <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px;"> In diesem Newsletter gibt es Informationen zu den Themen ... <br /><br /> Ic tem am dolor solorest vit voloreprem qui dionseq uatinctia dolore aruptat vel eum, simagnate pre, tes vo- luptatet ditas alitatent minimus expla non rem idel iur rempore volo occus ad qui aut ut qui to tem vent dolorer feribusae mo torenet exero totaernam que landae viti berum quo tem nonem et estio. Ita volupta tiandelique reicidi susa conet mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? Et remoditas aria culparum aritatem dolore estis ut dolorro rrorehe ndent. Genduci magnam etur andi <br /><br /> Ihr media:net berlinbrandenburg! </p>
                                 </div>
                               </td>
                             </tr>
                           </table>
                         </div>
-                        <div style="height: 4px; background-color: #d2dfed; margin: 0px 10px;"> </div>
-                        <div class="row">
-                          <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
-                            <tr class="row__row">
-                              <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
-                                <div mc:edit="article-left">
-                                  <h1 class="header h1" style="margin: 20px 0; line-height: 40px; font-family: Helvetica,Arial,sans-serif; color: #125DA7;">1.</h1>
-                                  <h3 class="header h3" style="margin: 20px 0; line-height: 24px; color: #000000; font-family: Helvetica,Arial,sans-serif;">Topnews</h3>
-                                  <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; font-size: 16px; line-height: 20px;"> Mit der Tip Berlin Media Group GmbH hat Geschäftsführer Robert Rischke viel vor: Der Multichannel-Verlag aus Berlin, der auf Stadtleben, Kulturberichterstattung und Veranstaltungsdaten spezialisiert ist, hat kürzlich das englischsprachige Magazin Exberliner übernommen. Im Gespräch mit uns verrät Rischke, wie es dazu kam und welche hat. </p>
-                                </div>
-                              </td>
-                              <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
-                                <img heml-ignore="" mc:edit="article-left-img" style="max-width: 100%; margin-top: 30px;" src="https://ci4.googleusercontent.com/proxy/lZtPGOQ_7j9UAkY9RclZfFhmsjTU5fct4wvAZfyVdhuWkN5sPuB53nVRRxfXPGZAUTv6kjuBZGZtFenk1OhNge7vtR8b3F4qeJ0xG6s_tYHitLosLN_Lbt7wtiUUOoJU20s0gKvzFl5ppyD2Ls4cSTItsNTdTA=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
-                              </td>
-                            </tr>
-                          </table>
+                        <div style="height: 4px; border-radius: 4px; background-color: #d2dfed; margin: 0px 10px 20px 10px;"> </div>
+                        <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
+                          <div class="row" style="direction: rtl;">
+                            <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                              <tr class="row__row">
+                                <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
+                                  <img heml-ignore="" mc:edit="article-left-img" style="max-width: 100%; border-radius: 15px;" src="https://ci4.googleusercontent.com/proxy/lZtPGOQ_7j9UAkY9RclZfFhmsjTU5fct4wvAZfyVdhuWkN5sPuB53nVRRxfXPGZAUTv6kjuBZGZtFenk1OhNge7vtR8b3F4qeJ0xG6s_tYHitLosLN_Lbt7wtiUUOoJU20s0gKvzFl5ppyD2Ls4cSTItsNTdTA=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
+                                </td>
+                                <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
+                                  <div mc:edit="article-left" style="direction: ltr;">
+                                    <h1 class="header h1" style="line-height: 40px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0;">1.</h1>
+                                    <h3 class="header h3" style="margin: 20px 0; line-height: 24px; color: #000000; font-family: Helvetica,Arial,sans-serif;">Topnews</h3>
+                                    <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px;"> Mit der Tip Berlin Media Group GmbH hat Geschäftsführer Robert Rischke viel vor: Der Multichannel-Verlag aus Berlin, der auf Stadtleben, Kulturberichterstattung und Veranstaltungsdaten spezialisiert ist, hat kürzlich das englischsprachige Magazin Exberliner übernommen. Im Gespräch mit uns verrät Rischke, wie es dazu kam und welche hat. </p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
                         </div>
-                        <div class="row">
-                          <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
-                            <tr class="row__row">
-                              <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
-                                <img heml-ignore="" mc:edit="article-right-img" style="max-width: 100%; margin-top: 30px;" src="https://ci3.googleusercontent.com/proxy/Vcaqbt2wwmOV_OyjNfi10gV8XLtgVioxCpXbbQcEj8RbGsKKuENT9rljRkGV-np_nwNoVX_mAZ_iMwtEuq6QG1TX3qFteMpnT8XGS9yUF0NLKTsrMtAQn66BJPIs7IOtIP3RDcgRg86ZUj6x-SUSJ6M1xT5V_g=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="man" />
-                              </td>
-                              <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
-                                <div mc:edit="article-right">
-                                  <h1 class="header h1" style="margin: 20px 0; line-height: 40px; font-family: Helvetica,Arial,sans-serif; color: #125DA7;">2.</h1>
-                                  <h3 class="header h3" style="margin: 20px 0; line-height: 24px; color: #000000; font-family: Helvetica,Arial,sans-serif;">Topnews</h3>
-                                  <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; font-size: 16px; line-height: 20px;"> Im vergangenen Herbst haben wir Unternehmen der Medien-, Kreativ- und Digitalwirtschaft in der Hauptstadtregion gefragt: Wie ergeht es Ihnen seit dem Ausbruch der Corona-Pandemie? Wie hat sich diese auf Ihren Geschäftserfolg, auf Ihre internen Unternehmensstrukturen und -ablä für die Medien-, Kreativ- und Digitalwirtschaft“ </p>
-                                </div>
-                              </td>
-                            </tr>
-                          </table>
+                        <div mc:repeatable="topnews-article" mc:variant="Topnews Article Right">
+                          <div class="article row">
+                            <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                              <tr class="row__row">
+                                <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
+                                  <img heml-ignore="" mc:edit="article-right-img" style="max-width: 100%; border-radius: 15px;" src="https://ci3.googleusercontent.com/proxy/Vcaqbt2wwmOV_OyjNfi10gV8XLtgVioxCpXbbQcEj8RbGsKKuENT9rljRkGV-np_nwNoVX_mAZ_iMwtEuq6QG1TX3qFteMpnT8XGS9yUF0NLKTsrMtAQn66BJPIs7IOtIP3RDcgRg86ZUj6x-SUSJ6M1xT5V_g=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="illustration" />
+                                </td>
+                                <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
+                                  <div mc:edit="article-right">
+                                    <h1 class="header h1" style="line-height: 40px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0;">2.</h1>
+                                    <h3 class="header h3" style="margin: 20px 0; line-height: 24px; color: #000000; font-family: Helvetica,Arial,sans-serif;">Topnews</h3>
+                                    <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px;"> Im vergangenen Herbst haben wir Unternehmen der Medien-, Kreativ- und Digitalwirtschaft in der Hauptstadtregion gefragt: Wie ergeht es Ihnen seit dem Ausbruch der Corona-Pandemie? Wie hat sich diese auf Ihren Geschäftserfolg, auf Ihre internen Unternehmensstrukturen und -ablä für die Medien-, Kreativ- und Digitalwirtschaft“ </p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                        <div style="text-align: center; background-color: #d2dfed; margin: 20px 10px; border-radius: 10px;">
+                          <h2 class="header h2" style="line-height: 30px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0; padding: 20px;">NEWS - INITIATIVEN</h2>
+                        </div>
+                        <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
+                          <div class="row" style="direction: rtl;">
+                            <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                              <tr class="row__row">
+                                <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
+                                  <img heml-ignore="" mc:edit="initiativen-article-right-img" style="max-width: 100%; border-radius: 15px;" src="https://ci4.googleusercontent.com/proxy/-cS9aG4sNyxrXCj3yimJffND5UjiS7vmw0Oz9PeEBR9mYpOYViADUzjEtW-eh4vpja2Vif8JyoiE0q_ydaj37xvGVlvF8DLI94ESII4tpnEA7L58A7UJIh7CptGaayLS2uoEBt5Gyu9sdSaVfD42nbTuhK7QRw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
+                                </td>
+                                <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
+                                  <div mc:edit="initiativen-article-right" style="direction: ltr;">
+                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif;"><i>Ca$h me if you can</i></h5>
+                                    <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px;"> Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein. </p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                        <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
+                          <div class="row">
+                            <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                              <tr class="row__row">
+                                <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
+                                  <img heml-ignore="" mc:edit="initiativen-article-left-img" style="max-width: 100%; border-radius: 15px;" src="https://ci6.googleusercontent.com/proxy/HqE9b6S6idwongqoqMxBxj7PyCrRdYJ4wD6twQqwA0QYytqjkBq6Y4YUGJDI9jiqKkodrf6EaVPbyLJojvKpa7b6HgHkqalGEPP_Aoqt6LXdAEysVt19n3kKqq2jS_tgxbm_aYcjB3FQgqlyPCmmjtDivcza_A=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
+                                </td>
+                                <td class="column col-sm-12" width="300" style="padding: 0 10px;width: 50%" align="left" valign="top">
+                                  <div mc:edit="initiativen-article-left">
+                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif;"><i>Digital Lunch</i></h5>
+                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif;">040 meets 030 #6</h5>
+                                    <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px;"> Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein. </p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                        <div style="text-align: center; background-color: #d2dfed; margin: 20px 10px; border-radius: 10px;">
+                          <h2 class="header h2" style="line-height: 30px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0; padding: 20px;">MITGLIEDER - NEWS</h2>
                         </div>
                       </td>
                     </tr>
