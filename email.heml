@@ -52,7 +52,7 @@
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
       <row style="direction: rtl;">
         <column>
-          <img heml-ignore mc:edit="article-left-img" style="max-width: 100%; border-radius: 15px;" src="https://ci4.googleusercontent.com/proxy/lZtPGOQ_7j9UAkY9RclZfFhmsjTU5fct4wvAZfyVdhuWkN5sPuB53nVRRxfXPGZAUTv6kjuBZGZtFenk1OhNge7vtR8b3F4qeJ0xG6s_tYHitLosLN_Lbt7wtiUUOoJU20s0gKvzFl5ppyD2Ls4cSTItsNTdTA=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
+          <img heml-ignore mc:edit="article-left-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 15px;" src="https://ci4.googleusercontent.com/proxy/lZtPGOQ_7j9UAkY9RclZfFhmsjTU5fct4wvAZfyVdhuWkN5sPuB53nVRRxfXPGZAUTv6kjuBZGZtFenk1OhNge7vtR8b3F4qeJ0xG6s_tYHitLosLN_Lbt7wtiUUOoJU20s0gKvzFl5ppyD2Ls4cSTItsNTdTA=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
         </column>
         <column>
           <div mc:edit="article-left" style="direction: ltr;">
@@ -69,7 +69,7 @@
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Right">
       <row class="article">
         <column>
-          <img heml-ignore mc:edit="article-right-img" style="max-width: 100%; border-radius: 15px;" src="https://ci3.googleusercontent.com/proxy/Vcaqbt2wwmOV_OyjNfi10gV8XLtgVioxCpXbbQcEj8RbGsKKuENT9rljRkGV-np_nwNoVX_mAZ_iMwtEuq6QG1TX3qFteMpnT8XGS9yUF0NLKTsrMtAQn66BJPIs7IOtIP3RDcgRg86ZUj6x-SUSJ6M1xT5V_g=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="illustration" />
+          <img heml-ignore mc:edit="article-right-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 15px;" src="https://ci3.googleusercontent.com/proxy/Vcaqbt2wwmOV_OyjNfi10gV8XLtgVioxCpXbbQcEj8RbGsKKuENT9rljRkGV-np_nwNoVX_mAZ_iMwtEuq6QG1TX3qFteMpnT8XGS9yUF0NLKTsrMtAQn66BJPIs7IOtIP3RDcgRg86ZUj6x-SUSJ6M1xT5V_g=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="illustration" />
         </column>
         <column>
           <div mc:edit="article-right">
@@ -89,8 +89,8 @@
 
       <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
       <row style="direction: rtl;">
-        <column>
-          <img heml-ignore mc:edit="initiativen-article-right-img" style="max-width: 100%; border-radius: 15px;" src="https://ci4.googleusercontent.com/proxy/-cS9aG4sNyxrXCj3yimJffND5UjiS7vmw0Oz9PeEBR9mYpOYViADUzjEtW-eh4vpja2Vif8JyoiE0q_ydaj37xvGVlvF8DLI94ESII4tpnEA7L58A7UJIh7CptGaayLS2uoEBt5Gyu9sdSaVfD42nbTuhK7QRw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
+        <column large="4" small="4">
+          <img heml-ignore mc:edit="initiativen-article-right-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 10px;" src="https://ci4.googleusercontent.com/proxy/-cS9aG4sNyxrXCj3yimJffND5UjiS7vmw0Oz9PeEBR9mYpOYViADUzjEtW-eh4vpja2Vif8JyoiE0q_ydaj37xvGVlvF8DLI94ESII4tpnEA7L58A7UJIh7CptGaayLS2uoEBt5Gyu9sdSaVfD42nbTuhK7QRw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
         </column>
         <column>
           <div mc:edit="initiativen-article-right" style="direction: ltr;">
@@ -105,8 +105,8 @@
 
       <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
       <row>
-        <column>
-          <img heml-ignore mc:edit="initiativen-article-left-img" style="max-width: 100%; border-radius: 15px;" src="https://ci6.googleusercontent.com/proxy/HqE9b6S6idwongqoqMxBxj7PyCrRdYJ4wD6twQqwA0QYytqjkBq6Y4YUGJDI9jiqKkodrf6EaVPbyLJojvKpa7b6HgHkqalGEPP_Aoqt6LXdAEysVt19n3kKqq2jS_tgxbm_aYcjB3FQgqlyPCmmjtDivcza_A=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
+        <column large="4" small="4">
+          <img heml-ignore mc:edit="initiativen-article-left-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 10px;" src="https://ci6.googleusercontent.com/proxy/HqE9b6S6idwongqoqMxBxj7PyCrRdYJ4wD6twQqwA0QYytqjkBq6Y4YUGJDI9jiqKkodrf6EaVPbyLJojvKpa7b6HgHkqalGEPP_Aoqt6LXdAEysVt19n3kKqq2jS_tgxbm_aYcjB3FQgqlyPCmmjtDivcza_A=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
         </column>
         <column>
           <div mc:edit="initiativen-article-left">
@@ -122,6 +122,51 @@
 
       <div style="text-align: center; background-color: #d2dfed; margin: 20px 10px; border-radius: 10px;">
         <h2 style="padding: 20px;">MITGLIEDER - NEWS</h2>
+      </div>
+
+      <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-right">
+      <row style="direction: rtl;">
+        <column large="4" small="4">
+          <img heml-ignore mc:edit="mitglieder-article-right-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 10px;" src="https://ci5.googleusercontent.com/proxy/WwrlLj1Skisl57NJZb8ae6qvTm8tMX06p_Zr2MW9drAEjR_Gc17UMTfDDwODh5tdUYuO5B6aBHDmCK6v084cvETOfzTzk1Va8nmUpqXYYZf500Hg3Mumsca5-uO94eLepseTNNlxUE_egwLhjIhsxIz-CkqQDg=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" />
+        </column>
+        <column>
+          <div mc:edit="mitglieder-article-right" style="direction: ltr;">
+            <h5><i>Mitglied der Woche: Second Elements</i></h5>
+            <p>
+              Die Second Elements GmbH & Co. KG ist nun auch mit einem Standort in Berlin im Bereich Digitalem Marketing vertreten. Was heute „in“ ist, kann morgen schon „out“ sein. Unsere Digital Marketing Agentur bringt das notwendige Feingespür mit, um solchen lukrative Entwicklungen bereits im Ansatz zu erkennen. Mit uns gelingt Ihnen der digitale Fortschritt!
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
+      <row>
+        <column large="4" small="4">
+          <img heml-ignore mc:edit="mitglieder-article-left-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 10px;" src="https://ci5.googleusercontent.com/proxy/GtmzX-T6LAMc6UTDtLO10SpQMdB9tKD2Hn1hs_013ONLcVHKPbL2QtXYoBaJNdinkKVUkvbIYXgPe5pGv3GPGnzifLyX8RlXEDIPiBf9WFzlN-SKzQwVmvO0S-g6-a-RoAtgGB4XlWKCN5h3KxzlfxR95ZXrYg=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" />
+        </column>
+        <column>
+          <div mc:edit="mitglieder-article-left">
+            <h5><i>Podcast-App für das Funkhaus Nürnberg</i></h5>
+            <p>
+              Aus der Region, für die Region – Das Berliner Softwareunternehmen KONSOLE Labs entwickelt mit PodYou eine eigenständige Podcast-App für das Funkhaus Nürnberg. Ziel ist es, Audio-Fans eine regional zentrierte Content-Plattform zu bieten und sie mit Podcast-Inhalten aus ihrer Region zu versorgen.
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <row>
+        <column large="4" small="4">
+          <div style="border: 2px solid #d2dfed; border-radius: 10px;"><p style="padding: 10px 10px 100px 10px; ">weitere News</p></div>
+        </column>
+        <column>
+          <div mc:repeatable="weitere-news" style="padding: 20px;"><span style="color: #125da7;">▶▶</span> weitere news 1</div>
+        </column>
+      </row>
+
+      <div style="text-align: center; background-color: #d2dfed; margin: 20px 10px; border-radius: 10px;">
+        <h2 style="padding: 20px;">EVENTKALENDER</h2>
       </div>
 
     </container>
