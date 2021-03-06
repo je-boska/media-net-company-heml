@@ -7,11 +7,15 @@
         margin: 0px;
         color: #125da7;
       }
+      h5 {
+        margin-top: 5px;
+      }
       p {
         font-size: 12px;
+        text-align: justify;
       }
       column {
-        padding: 0 10px;
+        padding: 0 20px;
       }
     </style>
   </head>
@@ -161,7 +165,7 @@
           <div style="border: 2px solid #d2dfed; border-radius: 10px;"><p style="padding: 10px 10px 100px 10px; ">weitere News</p></div>
         </column>
         <column>
-          <div mc:repeatable="weitere-news" style="padding: 20px;"><span style="color: #125da7;">▶▶</span> weitere news 1</div>
+          <div mc:edit="weitere-news-link" mc:repeatable="weitere-news" style="padding: 20px;"><span style="color: #125da7;">▶▶</span> weitere news 1</div>
         </column>
       </row>
 
