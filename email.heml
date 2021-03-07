@@ -228,7 +228,7 @@
               <span class="fwd-arrow">
               ▶▶
               </span>
-            weiters Event 1
+            weiteres Event 1
             </p>
           </div>
         </column>
@@ -242,12 +242,12 @@
       <row>
         <column>
           <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" />
-          <p mc:edit="job-text">UX/UI Designer</p>
+          <p mc:edit="job-text-left">UX/UI Designer</p>
         </column>
         <column>
           <div mc:hideable>
             <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" />
-            <p mc:edit="job-text">Project Manager</p>
+            <p mc:edit="job-text-right">Project Manager</p>
           </div>
         </column>
       </row>
