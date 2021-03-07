@@ -40,6 +40,15 @@
         color: #125da7; 
         margin-right: 7px;
       }
+      .social-icons {
+        text-align: center;
+        margin: 80px 0px 30px 0px;
+      }
+      .social-icons img {
+        height: 24px;
+        display: inline;
+        margin-right: 30px;
+      }
     </style>
   </head>
   <body>
@@ -61,6 +70,7 @@
         <column>
           <div mc:edit="intro">
             <p>
+            Liebe *|FNAME|*,<br/>
             In diesem Newsletter gibt es Informationen zu den Themen ... <br/><br/>
             Ic tem am dolor solorest vit voloreprem qui dionseq uatinctia dolore aruptat vel eum, simagnate pre, tes vo-
             luptatet ditas alitatent minimus expla non rem idel iur rempore volo occus ad qui aut ut qui to tem vent dolorer
@@ -79,7 +89,7 @@
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
       <row style="direction: rtl;">
         <column>
-          <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://ci4.googleusercontent.com/proxy/lZtPGOQ_7j9UAkY9RclZfFhmsjTU5fct4wvAZfyVdhuWkN5sPuB53nVRRxfXPGZAUTv6kjuBZGZtFenk1OhNge7vtR8b3F4qeJ0xG6s_tYHitLosLN_Lbt7wtiUUOoJU20s0gKvzFl5ppyD2Ls4cSTItsNTdTA=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
+          <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
         </column>
         <column>
           <div mc:edit="article-left" style="direction: ltr;">
@@ -96,7 +106,7 @@
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Right">
       <row class="article">
         <column>
-          <img heml-ignore class="image image-lg" mc:edit="article-right-img" src="https://ci3.googleusercontent.com/proxy/Vcaqbt2wwmOV_OyjNfi10gV8XLtgVioxCpXbbQcEj8RbGsKKuENT9rljRkGV-np_nwNoVX_mAZ_iMwtEuq6QG1TX3qFteMpnT8XGS9yUF0NLKTsrMtAQn66BJPIs7IOtIP3RDcgRg86ZUj6x-SUSJ6M1xT5V_g=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="illustration" />
+          <img heml-ignore class="image image-lg" mc:edit="article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="illustration" />
         </column>
         <column>
           <div mc:edit="article-right">
@@ -117,7 +127,7 @@
       <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
       <row style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-right-img" src="https://ci4.googleusercontent.com/proxy/-cS9aG4sNyxrXCj3yimJffND5UjiS7vmw0Oz9PeEBR9mYpOYViADUzjEtW-eh4vpja2Vif8JyoiE0q_ydaj37xvGVlvF8DLI94ESII4tpnEA7L58A7UJIh7CptGaayLS2uoEBt5Gyu9sdSaVfD42nbTuhK7QRw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
+          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
         </column>
         <column>
           <div mc:edit="initiativen-article-right" style="direction: ltr;">
@@ -133,7 +143,7 @@
       <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
       <row>
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-left-img"src="https://ci6.googleusercontent.com/proxy/HqE9b6S6idwongqoqMxBxj7PyCrRdYJ4wD6twQqwA0QYytqjkBq6Y4YUGJDI9jiqKkodrf6EaVPbyLJojvKpa7b6HgHkqalGEPP_Aoqt6LXdAEysVt19n3kKqq2jS_tgxbm_aYcjB3FQgqlyPCmmjtDivcza_A=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
+          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-left-img"src="https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
         </column>
         <column>
           <div mc:edit="initiativen-article-left">
@@ -154,7 +164,7 @@
       <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-right">
       <row style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://ci5.googleusercontent.com/proxy/WwrlLj1Skisl57NJZb8ae6qvTm8tMX06p_Zr2MW9drAEjR_Gc17UMTfDDwODh5tdUYuO5B6aBHDmCK6v084cvETOfzTzk1Va8nmUpqXYYZf500Hg3Mumsca5-uO94eLepseTNNlxUE_egwLhjIhsxIz-CkqQDg=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" />
+          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" />
         </column>
         <column>
           <div mc:edit="mitglieder-article-right" style="direction: ltr;">
@@ -170,7 +180,7 @@
       <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
       <row>
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://ci5.googleusercontent.com/proxy/GtmzX-T6LAMc6UTDtLO10SpQMdB9tKD2Hn1hs_013ONLcVHKPbL2QtXYoBaJNdinkKVUkvbIYXgPe5pGv3GPGnzifLyX8RlXEDIPiBf9WFzlN-SKzQwVmvO0S-g6-a-RoAtgGB4XlWKCN5h3KxzlfxR95ZXrYg=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" />
+          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" />
         </column>
         <column>
           <div mc:edit="mitglieder-article-left">
@@ -228,14 +238,17 @@
         <h2 style="padding: 20px;">JOBS</h2>
       </div>
 
-      <div>
+      <div mc:repeatable="job-section">
       <row>
         <column>
-          <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://ci4.googleusercontent.com/proxy/s0wLqgcomjj-23LWNGKXLZ40pzaRZv8nADgBMrYFeX3dPcq7gFMNvCj1SZoH7knwWyG5bZAFvdUnqPXz9POMrM6R3ObZaKQpONjdYkdGa6xZmGpHFcJMifMWa7irwDVLopQL3tT9JQjOGSlWidHNN6Ns_Zy0Qg=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" />
+          <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" />
           <p mc:edit="job-text">UX/UI Designer</p>
         </column>
         <column>
-
+          <div mc:hideable>
+            <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" />
+            <p mc:edit="job-text">Project Manager</p>
+          </div>
         </column>
       </row>
       </div>
@@ -247,7 +260,7 @@
       <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-right">
       <row>
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://ci3.googleusercontent.com/proxy/l1vfGyC2pJbKjdhahhHv1f_RqrbNAdoNvBiWOX2zOCj25Relw0CLiLDvI29WZrQgdPdZq5lSNZoumaOdQiU5xKqUKCL8arMnFFFWcZj6ZyXRoMFtrJvNnz0lwo-4UiXU5mAGQ3G_b2i2rol323J-HHrBGVFkmw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/161febb9-79bd-4ac9-991a-1cce5b01986d.png" alt="S - E" />
+          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/161febb9-79bd-4ac9-991a-1cce5b01986d.png" alt="S - E" />
         </column>
         <column>
           <div mc:edit="kooperationen-article-right">
@@ -263,7 +276,7 @@
       <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-left">
       <row style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://ci6.googleusercontent.com/proxy/UroLh0j5fMTjELUo4MVhV5ZE_3dWLtw0IyH44WtIvx7mbhZ6LSyMNKmBByV28O8_ZJd7qiUDgrmfZP_tcaSs4F7PRAC93k4uv1CybdK9SiYYVDjj6AO_pc2_3SmAQw0k_imAKwwEDAqc3_EHUVARGVtFTw5iPw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/eb1fb962-0874-498f-bcf1-cea2139bb822.png" alt="radio zentrale" />
+          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/eb1fb962-0874-498f-bcf1-cea2139bb822.png" alt="radio zentrale" />
         </column>
         <column>
           <div mc:edit="kooperationen-article-left" style="direction: ltr;">
@@ -276,10 +289,16 @@
       </row>
       </div>
 
-      <container style="background-color: #d2dfed;">
+      <container style="background-color: #d2dfed; margin-top: 20px; padding-bottom: 20px;">
         <row>
           <column>
-            <p style="text-align: center;">Social Media links here</p>
+            <p class="social-icons">
+              <a href="https://www.facebook.com/media.netbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" /></a>
+              <a href="https://twitter.com/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net facebook" /></a>
+              <a href="https://www.instagram.com/medianetbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net facebook" /></a>
+              <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net facebook" /></a>
+              <a href="https://www.youtube.com/user/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net facebook" /></a>
+            </p>
           </column>
         </row>
         <row>
