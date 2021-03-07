@@ -7,6 +7,9 @@
         margin: 0px;
         color: #125da7;
       }
+      h3 {
+        margin: 0px;
+      }
       h5 {
         margin-top: 5px;
       }
@@ -16,6 +19,26 @@
       }
       column {
         padding: 0 20px;
+      }
+      .header-box {
+        text-align: center; 
+        background-color: #d2dfed; 
+        margin: 20px 10px; 
+        border-radius: 10px;
+      }
+      .image {
+        max-width: 100%; 
+        border: 2px solid #d2dfed; 
+      }
+      .image-lg {
+        border-radius: 15px;
+      }
+      .image-sm {
+        border-radius: 10px;
+      }
+      .fwd-arrow {
+        color: #125da7; 
+        margin-right: 7px;
       }
     </style>
   </head>
@@ -56,12 +79,12 @@
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
       <row style="direction: rtl;">
         <column>
-          <img heml-ignore mc:edit="article-left-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 15px;" src="https://ci4.googleusercontent.com/proxy/lZtPGOQ_7j9UAkY9RclZfFhmsjTU5fct4wvAZfyVdhuWkN5sPuB53nVRRxfXPGZAUTv6kjuBZGZtFenk1OhNge7vtR8b3F4qeJ0xG6s_tYHitLosLN_Lbt7wtiUUOoJU20s0gKvzFl5ppyD2Ls4cSTItsNTdTA=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
+          <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://ci4.googleusercontent.com/proxy/lZtPGOQ_7j9UAkY9RclZfFhmsjTU5fct4wvAZfyVdhuWkN5sPuB53nVRRxfXPGZAUTv6kjuBZGZtFenk1OhNge7vtR8b3F4qeJ0xG6s_tYHitLosLN_Lbt7wtiUUOoJU20s0gKvzFl5ppyD2Ls4cSTItsNTdTA=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
         </column>
         <column>
           <div mc:edit="article-left" style="direction: ltr;">
             <h1>1.</h1>
-            <h3>Topnews</h3>
+            <h3><i>Topnews</i></h3>
             <p>
               Mit der Tip Berlin Media Group GmbH hat Geschäftsführer Robert Rischke viel vor: Der Multichannel-Verlag aus Berlin, der auf Stadtleben, Kulturberichterstattung und Veranstaltungsdaten spezialisiert ist, hat kürzlich das englischsprachige Magazin Exberliner übernommen. Im Gespräch mit uns verrät Rischke, wie es dazu kam und welche hat.
             </p>
@@ -73,12 +96,12 @@
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Right">
       <row class="article">
         <column>
-          <img heml-ignore mc:edit="article-right-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 15px;" src="https://ci3.googleusercontent.com/proxy/Vcaqbt2wwmOV_OyjNfi10gV8XLtgVioxCpXbbQcEj8RbGsKKuENT9rljRkGV-np_nwNoVX_mAZ_iMwtEuq6QG1TX3qFteMpnT8XGS9yUF0NLKTsrMtAQn66BJPIs7IOtIP3RDcgRg86ZUj6x-SUSJ6M1xT5V_g=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="illustration" />
+          <img heml-ignore class="image image-lg" mc:edit="article-right-img" src="https://ci3.googleusercontent.com/proxy/Vcaqbt2wwmOV_OyjNfi10gV8XLtgVioxCpXbbQcEj8RbGsKKuENT9rljRkGV-np_nwNoVX_mAZ_iMwtEuq6QG1TX3qFteMpnT8XGS9yUF0NLKTsrMtAQn66BJPIs7IOtIP3RDcgRg86ZUj6x-SUSJ6M1xT5V_g=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="illustration" />
         </column>
         <column>
           <div mc:edit="article-right">
             <h1>2.</h1>
-            <h3>Topnews</h3>
+            <h3><i>Topnews</i></h3>
             <p>
               Im vergangenen Herbst haben wir Unternehmen der Medien-, Kreativ- und Digitalwirtschaft in der Hauptstadtregion gefragt: Wie ergeht es Ihnen seit dem Ausbruch der Corona-Pandemie? Wie hat sich diese auf Ihren Geschäftserfolg, auf Ihre internen Unternehmensstrukturen und -ablä für die Medien-, Kreativ- und Digitalwirtschaft“
             </p>
@@ -87,14 +110,14 @@
       </row>
       </div>
 
-      <div style="text-align: center; background-color: #d2dfed; margin: 20px 10px; border-radius: 10px;">
+      <div class="header-box">
         <h2 style="padding: 20px;">NEWS - INITIATIVEN</h2>
       </div>
 
       <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
       <row style="direction: rtl;">
-        <column large="4" small="4">
-          <img heml-ignore mc:edit="initiativen-article-right-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 10px;" src="https://ci4.googleusercontent.com/proxy/-cS9aG4sNyxrXCj3yimJffND5UjiS7vmw0Oz9PeEBR9mYpOYViADUzjEtW-eh4vpja2Vif8JyoiE0q_ydaj37xvGVlvF8DLI94ESII4tpnEA7L58A7UJIh7CptGaayLS2uoEBt5Gyu9sdSaVfD42nbTuhK7QRw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
+        <column large="4" small="12">
+          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-right-img" src="https://ci4.googleusercontent.com/proxy/-cS9aG4sNyxrXCj3yimJffND5UjiS7vmw0Oz9PeEBR9mYpOYViADUzjEtW-eh4vpja2Vif8JyoiE0q_ydaj37xvGVlvF8DLI94ESII4tpnEA7L58A7UJIh7CptGaayLS2uoEBt5Gyu9sdSaVfD42nbTuhK7QRw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
         </column>
         <column>
           <div mc:edit="initiativen-article-right" style="direction: ltr;">
@@ -109,8 +132,8 @@
 
       <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
       <row>
-        <column large="4" small="4">
-          <img heml-ignore mc:edit="initiativen-article-left-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 10px;" src="https://ci6.googleusercontent.com/proxy/HqE9b6S6idwongqoqMxBxj7PyCrRdYJ4wD6twQqwA0QYytqjkBq6Y4YUGJDI9jiqKkodrf6EaVPbyLJojvKpa7b6HgHkqalGEPP_Aoqt6LXdAEysVt19n3kKqq2jS_tgxbm_aYcjB3FQgqlyPCmmjtDivcza_A=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
+        <column large="4" small="12">
+          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-left-img"src="https://ci6.googleusercontent.com/proxy/HqE9b6S6idwongqoqMxBxj7PyCrRdYJ4wD6twQqwA0QYytqjkBq6Y4YUGJDI9jiqKkodrf6EaVPbyLJojvKpa7b6HgHkqalGEPP_Aoqt6LXdAEysVt19n3kKqq2jS_tgxbm_aYcjB3FQgqlyPCmmjtDivcza_A=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
         </column>
         <column>
           <div mc:edit="initiativen-article-left">
@@ -124,14 +147,14 @@
       </row>
       </div>
 
-      <div style="text-align: center; background-color: #d2dfed; margin: 20px 10px; border-radius: 10px;">
+      <div class="header-box">
         <h2 style="padding: 20px;">MITGLIEDER - NEWS</h2>
       </div>
 
       <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-right">
       <row style="direction: rtl;">
-        <column large="4" small="4">
-          <img heml-ignore mc:edit="mitglieder-article-right-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 10px;" src="https://ci5.googleusercontent.com/proxy/WwrlLj1Skisl57NJZb8ae6qvTm8tMX06p_Zr2MW9drAEjR_Gc17UMTfDDwODh5tdUYuO5B6aBHDmCK6v084cvETOfzTzk1Va8nmUpqXYYZf500Hg3Mumsca5-uO94eLepseTNNlxUE_egwLhjIhsxIz-CkqQDg=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" />
+        <column large="4" small="12">
+          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://ci5.googleusercontent.com/proxy/WwrlLj1Skisl57NJZb8ae6qvTm8tMX06p_Zr2MW9drAEjR_Gc17UMTfDDwODh5tdUYuO5B6aBHDmCK6v084cvETOfzTzk1Va8nmUpqXYYZf500Hg3Mumsca5-uO94eLepseTNNlxUE_egwLhjIhsxIz-CkqQDg=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" />
         </column>
         <column>
           <div mc:edit="mitglieder-article-right" style="direction: ltr;">
@@ -146,8 +169,8 @@
 
       <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
       <row>
-        <column large="4" small="4">
-          <img heml-ignore mc:edit="mitglieder-article-left-img" style="max-width: 100%; border: 2px solid #d2dfed; border-radius: 10px;" src="https://ci5.googleusercontent.com/proxy/GtmzX-T6LAMc6UTDtLO10SpQMdB9tKD2Hn1hs_013ONLcVHKPbL2QtXYoBaJNdinkKVUkvbIYXgPe5pGv3GPGnzifLyX8RlXEDIPiBf9WFzlN-SKzQwVmvO0S-g6-a-RoAtgGB4XlWKCN5h3KxzlfxR95ZXrYg=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" />
+        <column large="4" small="12">
+          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://ci5.googleusercontent.com/proxy/GtmzX-T6LAMc6UTDtLO10SpQMdB9tKD2Hn1hs_013ONLcVHKPbL2QtXYoBaJNdinkKVUkvbIYXgPe5pGv3GPGnzifLyX8RlXEDIPiBf9WFzlN-SKzQwVmvO0S-g6-a-RoAtgGB4XlWKCN5h3KxzlfxR95ZXrYg=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" />
         </column>
         <column>
           <div mc:edit="mitglieder-article-left">
@@ -161,17 +184,134 @@
       </div>
 
       <row>
-        <column large="4" small="4">
-          <div style="border: 2px solid #d2dfed; border-radius: 10px;"><p style="padding: 10px 10px 100px 10px; ">weitere News</p></div>
+        <column large="4" small="12">
+          <div style="width: 100%; border: 2px solid #d2dfed; border-radius: 10px;"><p style="padding: 10px 10px 100px 10px; ">weitere News</p></div>
         </column>
         <column>
-          <div mc:edit="weitere-news-link" mc:repeatable="weitere-news" style="padding: 20px;"><span style="color: #125da7;">▶▶</span> weitere news 1</div>
+          <div mc:repeatable="weitere-news" style="padding: 5px 0px;">
+            <p mc:edit="weitere-news-link">
+              <span class="fwd-arrow">
+              ▶▶
+              </span>
+            weitere News 1
+            </p>
+          </div>
         </column>
       </row>
 
-      <div style="text-align: center; background-color: #d2dfed; margin: 20px 10px; border-radius: 10px;">
+      <div class="header-box">
         <h2 style="padding: 20px;">EVENTKALENDER</h2>
       </div>
+
+      <row>
+        <column>
+          <div mc:edit="eventkalender-article">
+            <h5><i>media:net COOP: Matching Day goes online</i></h5>
+            <p>
+              Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme!
+            </p>
+          </div>
+        </column>
+        <column>
+          <div mc:repeatable="weiteres-event" style="padding: 5px 0px;">
+            <p mc:edit="weiteres-event-link">
+              <span class="fwd-arrow">
+              ▶▶
+              </span>
+            weiters Event 1
+            </p>
+          </div>
+        </column>
+      </row>
+
+      <div class="header-box">
+        <h2 style="padding: 20px;">JOBS</h2>
+      </div>
+
+      <div>
+      <row>
+        <column>
+          <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://ci4.googleusercontent.com/proxy/s0wLqgcomjj-23LWNGKXLZ40pzaRZv8nADgBMrYFeX3dPcq7gFMNvCj1SZoH7knwWyG5bZAFvdUnqPXz9POMrM6R3ObZaKQpONjdYkdGa6xZmGpHFcJMifMWa7irwDVLopQL3tT9JQjOGSlWidHNN6Ns_Zy0Qg=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" />
+          <p mc:edit="job-text">UX/UI Designer</p>
+        </column>
+        <column>
+
+        </column>
+      </row>
+      </div>
+
+      <div class="header-box">
+        <h2 style="padding: 20px;">KOOPERATIONEN</h2>
+      </div>
+
+      <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-right">
+      <row>
+        <column large="4" small="12">
+          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://ci3.googleusercontent.com/proxy/l1vfGyC2pJbKjdhahhHv1f_RqrbNAdoNvBiWOX2zOCj25Relw0CLiLDvI29WZrQgdPdZq5lSNZoumaOdQiU5xKqUKCL8arMnFFFWcZj6ZyXRoMFtrJvNnz0lwo-4UiXU5mAGQ3G_b2i2rol323J-HHrBGVFkmw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/161febb9-79bd-4ac9-991a-1cce5b01986d.png" alt="S - E" />
+        </column>
+        <column>
+          <div mc:edit="kooperationen-article-right">
+            <h5><i>media:net COOP: <br/> 3. Ostdeutscher Unternehmertag 2021</i></h5>
+            <p>
+              Am 22. April 2021 von 10:00 bis 17:30 Uhr sind Sie und über 100 Teilnehmer*innen aus Mittelstand, Wissenschaft und Politik zu dem Praxisforum der ostdeutschen Wirtschaft eingeladen.
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-left">
+      <row style="direction: rtl;">
+        <column large="4" small="12">
+          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://ci6.googleusercontent.com/proxy/UroLh0j5fMTjELUo4MVhV5ZE_3dWLtw0IyH44WtIvx7mbhZ6LSyMNKmBByV28O8_ZJd7qiUDgrmfZP_tcaSs4F7PRAC93k4uv1CybdK9SiYYVDjj6AO_pc2_3SmAQw0k_imAKwwEDAqc3_EHUVARGVtFTw5iPw=s0-d-e1-ft#https://mcusercontent.com/7140691abc4c72842929acd78/images/eb1fb962-0874-498f-bcf1-cea2139bb822.png" alt="radio zentrale" />
+        </column>
+        <column>
+          <div mc:edit="kooperationen-article-left" style="direction: ltr;">
+            <h5><i>media:net COOP: <br/> Matching Day goes online</i></h5>
+            <p>
+              Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme!
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <container style="background-color: #d2dfed;">
+        <row>
+          <column>
+            <p style="text-align: center;">Social Media links here</p>
+          </column>
+        </row>
+        <row>
+          <column>
+            <p style="text-align: center;">
+              Der Sondernewsletter des media:net berlinbrandenburg. <br/>
+              Neuigkeiten aus dem Netzwerk, für das Netzwerk. <br/><br/>
+
+              Redaktion: Xenia Günther<br/> <br/>
+
+              <strong>Impressum:</strong><br/>
+
+              media:net berlinbrandenburg e.V., <br/>
+              Ackerstraße 3A, 10115 Berlin <br/>
+              T. 030 2462 857 – 10 | F. 030 2462 857 – 19 <br/>
+              newsletter@medianet-bb.de | WEB: www.medianet-bb.de</p> 
+          </column>
+          <column>
+            <p style="text-align: center;">
+              <strong>Datenschutz</strong> <br/>
+
+              Registergericht: Amtsgericht Berlin-Charlottenburg <br/>
+              Register-Nummer: 210 86 Nz <br/>
+              Steuernummer: 27/672/51005 <br/>
+              Vorstandsvorsitzende: Jeannine Koch <br/>
+              Aufsichtsratsvorsitzender: Bernd Schiphorst <br/>
+              --- <br/>
+              media:net berlinbrandenburg e.V. ist das Bündnis von mehr als 420 Unternehmen der Medien- und Digitalwirtschaft in Berlin und Brandenburg.
+            </p> 
+          </column>
+        </row>
+      </container>
 
     </container>
   </body>
