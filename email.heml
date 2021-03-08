@@ -4,14 +4,21 @@
     <preview>Neuigkeiten aus dem Netzwerk, für das Netzwerk.</preview>
 
     <style>
+      h1 {
+        font-size: 40px;
+      }
+      h1, h2, h4 {
+        font-family: Bitter, Helvetica;
+      }
       h1, h2 {
         margin: 0px;
         color: #125da7;
       }
-      h3 {
-        margin: 0px;
+      .topnews {
+        color: #000000;
+        font-size: 20px;
       }
-      h5 {
+      h4 {
         margin-top: 5px;
       }
       p {
@@ -20,6 +27,9 @@
       }
       column {
         padding: 0 20px;
+      }
+      .article {
+        margin: 15px 0px;
       }
       .header-box {
         text-align: center; 
@@ -37,6 +47,9 @@
       .image-sm {
         border-radius: 10px;
       }
+      .arrow-list-item {
+        margin: 10px 0px;
+      }
       .fwd-arrow {
         color: #125da7; 
         margin-right: 7px;
@@ -48,11 +61,11 @@
       .social-icons img {
         height: 24px;
         display: inline;
-        margin: 0px 20px;
+        margin: 0px 10px;
       }
     </style>
 
-    <font href="" />
+    <font href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap" />
 
   </head>
   <body>
@@ -66,7 +79,9 @@
 
       <row>
         <column>
-          <h4 style="text-align: right;">*|DATE:d / m / y|*</h4>
+          <h4 style="margin-top: 20px; margin-bottom: 0px; text-align: right;">
+            *|DATE:d / m / y|*
+          </h4>
         </column>
       </row>
 
@@ -74,7 +89,10 @@
         <column>
           <div mc:edit="intro">
             <p>
-            Liebe *|FNAME|*,<br/>
+            *|IF:FNAME|*
+            Liebe *|FNAME|*,
+            *|END:IF|*
+            <br/>
             In diesem Newsletter gibt es Informationen zu den Themen ... <br/><br/>
             Ic tem am dolor solorest vit voloreprem qui dionseq uatinctia dolore aruptat vel eum, simagnate pre, tes vo-
             luptatet ditas alitatent minimus expla non rem idel iur rempore volo occus ad qui aut ut qui to tem vent dolorer
@@ -91,14 +109,13 @@
       <div style="height: 4px; border-radius: 4px; background-color: #d2dfed; margin: 0px 10px 20px 10px;"></div>
       
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
-      <row style="direction: rtl;">
+      <row class="article" style="direction: rtl;">
         <column>
           <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
         </column>
         <column>
           <div mc:edit="article-left" style="direction: ltr;">
-            <h1>1.</h1>
-            <h3><i>Topnews</i></h3>
+            <h1><i>1. <span class="topnews">Topnews</span></i></h1>
             <p>
               Mit der Tip Berlin Media Group GmbH hat Geschäftsführer Robert Rischke viel vor: Der Multichannel-Verlag aus Berlin, der auf Stadtleben, Kulturberichterstattung und Veranstaltungsdaten spezialisiert ist, hat kürzlich das englischsprachige Magazin Exberliner übernommen. Im Gespräch mit uns verrät Rischke, wie es dazu kam und welche hat.
             </p>
@@ -114,8 +131,7 @@
         </column>
         <column>
           <div mc:edit="article-right">
-            <h1>2.</h1>
-            <h3><i>Topnews</i></h3>
+            <h1><i>2. <span class="topnews">Topnews</span></i></h1>
             <p>
               Im vergangenen Herbst haben wir Unternehmen der Medien-, Kreativ- und Digitalwirtschaft in der Hauptstadtregion gefragt: Wie ergeht es Ihnen seit dem Ausbruch der Corona-Pandemie? Wie hat sich diese auf Ihren Geschäftserfolg, auf Ihre internen Unternehmensstrukturen und -ablä für die Medien-, Kreativ- und Digitalwirtschaft“
             </p>
@@ -128,14 +144,14 @@
         <h2 style="padding: 20px;">NEWS - INITIATIVEN</h2>
       </div>
 
-      <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
-      <row style="direction: rtl;">
+      <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
+      <row class="article" style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
+          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
         </column>
         <column>
-          <div mc:edit="initiativen-article-right" style="direction: ltr;">
-            <h5><i>Ca$h me if you can</i></h5>
+          <div mc:edit="initiativen-article-left" style="direction: ltr;">
+            <h4><i>Ca$h me if you can</i></h4>
             <p>
               Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein.
             </p>
@@ -144,14 +160,14 @@
       </row>
       </div>
 
-      <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
-      <row>
+      <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
+      <row class="article">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-left-img"src="https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
+          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-right-img"src="https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
         </column>
         <column>
-          <div mc:edit="initiativen-article-left">
-            <h5><i>Digital Lunch</i></h5>
+          <div mc:edit="initiativen-article-right">
+            <h4><i>Digital Lunch</i></h4>
             <h5>040 meets 030 #6</h5>
             <p>
               Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein.
@@ -165,14 +181,14 @@
         <h2 style="padding: 20px;">MITGLIEDER - NEWS</h2>
       </div>
 
-      <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-right">
-      <row style="direction: rtl;">
+      <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
+      <row class="article" style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" />
+          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" />
         </column>
         <column>
-          <div mc:edit="mitglieder-article-right" style="direction: ltr;">
-            <h5><i>Mitglied der Woche: Second Elements</i></h5>
+          <div mc:edit="mitglieder-article-left" style="direction: ltr;">
+            <h4><i>Mitglied der Woche: Second Elements</i></h4>
             <p>
               Die Second Elements GmbH & Co. KG ist nun auch mit einem Standort in Berlin im Bereich Digitalem Marketing vertreten. Was heute „in“ ist, kann morgen schon „out“ sein. Unsere Digital Marketing Agentur bringt das notwendige Feingespür mit, um solchen lukrative Entwicklungen bereits im Ansatz zu erkennen. Mit uns gelingt Ihnen der digitale Fortschritt!
             </p>
@@ -181,14 +197,14 @@
       </row>
       </div>
 
-      <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
-      <row>
+      <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-right">
+      <row class="article">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" />
+          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" />
         </column>
         <column>
-          <div mc:edit="mitglieder-article-left">
-            <h5><i>Podcast-App für das Funkhaus Nürnberg</i></h5>
+          <div mc:edit="mitglieder-article-right">
+            <h4><i>Podcast-App für das Funkhaus Nürnberg</i></h4>
             <p>
               Aus der Region, für die Region – Das Berliner Softwareunternehmen KONSOLE Labs entwickelt mit PodYou eine eigenständige Podcast-App für das Funkhaus Nürnberg. Ziel ist es, Audio-Fans eine regional zentrierte Content-Plattform zu bieten und sie mit Podcast-Inhalten aus ihrer Region zu versorgen.
             </p>
@@ -197,13 +213,13 @@
       </row>
       </div>
 
-      <row>
+      <row class="article">
         <column large="4" small="12">
           <div style="width: 100%; border: 2px solid #d2dfed; border-radius: 10px;"><p style="padding: 10px 10px 100px 10px; ">weitere News</p></div>
         </column>
         <column>
           <div mc:repeatable="weitere-news" style="padding: 5px 0px;">
-            <p mc:edit="weitere-news-link">
+            <p class="arrow-list-item" mc:edit="weitere-news-link">
               <span class="fwd-arrow">
               ▶▶
               </span>
@@ -220,7 +236,7 @@
       <row>
         <column>
           <div mc:edit="eventkalender-article">
-            <h5><i>media:net COOP: Matching Day goes online</i></h5>
+            <h4><i>media:net COOP: Matching Day goes online</i></h4>
             <p>
               Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme!
             </p>
@@ -228,7 +244,7 @@
         </column>
         <column>
           <div mc:repeatable="weiteres-event" style="padding: 5px 0px;">
-            <p mc:edit="weiteres-event-link">
+            <p class="arrow-list-item" mc:edit="weiteres-event-link">
               <span class="fwd-arrow">
               ▶▶
               </span>
@@ -262,13 +278,13 @@
       </div>
 
       <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-right">
-      <row>
+      <row class="article">
         <column large="4" small="12">
           <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/161febb9-79bd-4ac9-991a-1cce5b01986d.png" alt="S - E" />
         </column>
         <column>
           <div mc:edit="kooperationen-article-right">
-            <h5><i>media:net COOP: <br/> 3. Ostdeutscher Unternehmertag 2021</i></h5>
+            <h4><i>media:net COOP: <br/> 3. Ostdeutscher Unternehmertag 2021</i></h4>
             <p>
               Am 22. April 2021 von 10:00 bis 17:30 Uhr sind Sie und über 100 Teilnehmer*innen aus Mittelstand, Wissenschaft und Politik zu dem Praxisforum der ostdeutschen Wirtschaft eingeladen.
             </p>
@@ -278,13 +294,13 @@
       </div>
 
       <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-left">
-      <row style="direction: rtl;">
+      <row class="article" style="direction: rtl;">
         <column large="4" small="12">
           <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/eb1fb962-0874-498f-bcf1-cea2139bb822.png" alt="radio zentrale" />
         </column>
         <column>
           <div mc:edit="kooperationen-article-left" style="direction: ltr;">
-            <h5><i>media:net COOP: <br/> Matching Day goes online</i></h5>
+            <h4><i>media:net COOP: <br/> Matching Day goes online</i></h4>
             <p>
               Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme!
             </p>
@@ -315,8 +331,7 @@
 
               <strong>Impressum:</strong><br/>
 
-              media:net berlinbrandenburg e.V., <br/>
-              Ackerstraße 3A, 10115 Berlin <br/>
+              *|LIST:ADDRESS|* <br/>
               T. 030 2462 857 – 10 | F. 030 2462 857 – 19 <br/>
               newsletter@medianet-bb.de | WEB: www.medianet-bb.de</p> 
           </column>
@@ -332,6 +347,11 @@
               --- <br/>
               media:net berlinbrandenburg e.V. ist das Bündnis von mehr als 420 Unternehmen der Medien- und Digitalwirtschaft in Berlin und Brandenburg.
             </p> 
+          </column>
+        </row>
+        <row>
+          <column>
+            <p style="text-align: center;"><a style="text-decoration: none;" href="*|UNSUB|*">unsubscribe</a></p>
           </column>
         </row>
       </container>

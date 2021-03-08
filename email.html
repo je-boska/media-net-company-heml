@@ -84,6 +84,9 @@
       }
     </style>
     <!-- content -->
+    <!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap" rel="stylesheet" type="text/css" />
+    <!--<![endif]-->
     <!--[if gte mso 9]><xml>
        <o:OfficeDocumentSettings>
         <o:AllowPNG/>
@@ -114,7 +117,7 @@
                           <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                             <tr class="row__row">
                               <td class="column col-sm-12" width="600" style="padding: 0 20px;width: 100%" align="left" valign="top">
-                                <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; text-align: right;">*|DATE:d / m / y|*</h4>
+                                <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-bottom: 0; margin-top: 20px; text-align: right;"> *|DATE:d / m / y|* </h4>
                               </td>
                             </tr>
                           </table>
@@ -124,7 +127,7 @@
                             <tr class="row__row">
                               <td class="column col-sm-12" width="600" style="padding: 0 20px;width: 100%" align="left" valign="top">
                                 <div mc:edit="intro">
-                                  <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Liebe *|FNAME|*,<br /> In diesem Newsletter gibt es Informationen zu den Themen ... <br /><br /> Ic tem am dolor solorest vit voloreprem qui dionseq uatinctia dolore aruptat vel eum, simagnate pre, tes vo- luptatet ditas alitatent minimus expla non rem idel iur rempore volo occus ad qui aut ut qui to tem vent dolorer feribusae mo torenet exero totaernam que landae viti berum quo tem nonem et estio. Ita volupta tiandelique reicidi susa conet mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? Et remoditas aria culparum aritatem dolore estis ut dolorro rrorehe ndent. Genduci magnam etur andi <br /><br /> Ihr media:net berlinbrandenburg! </p>
+                                  <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> *|IF:FNAME|* Liebe *|FNAME|*, *|END:IF|* <br /> In diesem Newsletter gibt es Informationen zu den Themen ... <br /><br /> Ic tem am dolor solorest vit voloreprem qui dionseq uatinctia dolore aruptat vel eum, simagnate pre, tes vo- luptatet ditas alitatent minimus expla non rem idel iur rempore volo occus ad qui aut ut qui to tem vent dolorer feribusae mo torenet exero totaernam que landae viti berum quo tem nonem et estio. Ita volupta tiandelique reicidi susa conet mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? Et remoditas aria culparum aritatem dolore estis ut dolorro rrorehe ndent. Genduci magnam etur andi <br /><br /> Ihr media:net berlinbrandenburg! </p>
                                 </div>
                               </td>
                             </tr>
@@ -132,7 +135,7 @@
                         </div>
                         <div style="height: 4px; border-radius: 4px; background-color: #d2dfed; margin: 0px 10px 20px 10px;"> </div>
                         <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
-                          <div class="row" style="direction: rtl;">
+                          <div class="article row" style="margin: 15px 0; direction: rtl;">
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="300" style="padding: 0 20px;width: 50%" align="left" valign="top">
@@ -140,8 +143,7 @@
                                 </td>
                                 <td class="column col-sm-12" width="300" style="padding: 0 20px;width: 50%" align="left" valign="top">
                                   <div mc:edit="article-left" style="direction: ltr;">
-                                    <h1 class="header h1" style="line-height: 40px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0;">1.</h1>
-                                    <h3 class="header h3" style="line-height: 24px; color: #000000; font-family: Helvetica,Arial,sans-serif; margin: 0;"><i>Topnews</i></h3>
+                                    <h1 class="header h1" style="line-height: 40px; font-size: 40px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0;"><i>1. <span class="topnews" style="color: #000000; font-size: 20px;">Topnews</span></i></h1>
                                     <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Mit der Tip Berlin Media Group GmbH hat Geschäftsführer Robert Rischke viel vor: Der Multichannel-Verlag aus Berlin, der auf Stadtleben, Kulturberichterstattung und Veranstaltungsdaten spezialisiert ist, hat kürzlich das englischsprachige Magazin Exberliner übernommen. Im Gespräch mit uns verrät Rischke, wie es dazu kam und welche hat. </p>
                                   </div>
                                 </td>
@@ -150,7 +152,7 @@
                           </div>
                         </div>
                         <div mc:repeatable="topnews-article" mc:variant="Topnews Article Right">
-                          <div class="article row">
+                          <div class="article row" style="margin: 15px 0;">
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="300" style="padding: 0 20px;width: 50%" align="left" valign="top">
@@ -158,8 +160,7 @@
                                 </td>
                                 <td class="column col-sm-12" width="300" style="padding: 0 20px;width: 50%" align="left" valign="top">
                                   <div mc:edit="article-right">
-                                    <h1 class="header h1" style="line-height: 40px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0;">2.</h1>
-                                    <h3 class="header h3" style="line-height: 24px; color: #000000; font-family: Helvetica,Arial,sans-serif; margin: 0;"><i>Topnews</i></h3>
+                                    <h1 class="header h1" style="line-height: 40px; font-size: 40px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0;"><i>2. <span class="topnews" style="color: #000000; font-size: 20px;">Topnews</span></i></h1>
                                     <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Im vergangenen Herbst haben wir Unternehmen der Medien-, Kreativ- und Digitalwirtschaft in der Hauptstadtregion gefragt: Wie ergeht es Ihnen seit dem Ausbruch der Corona-Pandemie? Wie hat sich diese auf Ihren Geschäftserfolg, auf Ihre internen Unternehmensstrukturen und -ablä für die Medien-, Kreativ- und Digitalwirtschaft“ </p>
                                   </div>
                                 </td>
@@ -168,18 +169,18 @@
                           </div>
                         </div>
                         <div class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
-                          <h2 class="header h2" style="line-height: 30px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0; padding: 20px;">NEWS - INITIATIVEN</h2>
+                          <h2 class="header h2" style="line-height: 30px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0; padding: 20px;">NEWS - INITIATIVEN</h2>
                         </div>
-                        <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
-                          <div class="row" style="direction: rtl;">
+                        <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
+                          <div class="article row" style="margin: 15px 0; direction: rtl;">
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px;width: 33%" align="left" valign="top">
-                                  <img heml-ignore="" class="image image-sm" mc:edit="initiativen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
+                                  <img heml-ignore="" class="image image-sm" mc:edit="initiativen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px;width: 67%" align="left" valign="top">
-                                  <div mc:edit="initiativen-article-right" style="direction: ltr;">
-                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; margin-top: 5px;"><i>Ca$h me if you can</i></h5>
+                                  <div mc:edit="initiativen-article-left" style="direction: ltr;">
+                                    <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px;"><i>Ca$h me if you can</i></h4>
                                     <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein. </p>
                                   </div>
                                 </td>
@@ -187,17 +188,17 @@
                             </table>
                           </div>
                         </div>
-                        <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
-                          <div class="row">
+                        <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
+                          <div class="article row" style="margin: 15px 0;">
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px;width: 33%" align="left" valign="top">
-                                  <img heml-ignore="" class="image image-sm" mc:edit="initiativen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
+                                  <img heml-ignore="" class="image image-sm" mc:edit="initiativen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px;width: 67%" align="left" valign="top">
-                                  <div mc:edit="initiativen-article-left">
-                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; margin-top: 5px;"><i>Digital Lunch</i></h5>
-                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; margin-top: 5px;">040 meets 030 #6</h5>
+                                  <div mc:edit="initiativen-article-right">
+                                    <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px;"><i>Digital Lunch</i></h4>
+                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif;">040 meets 030 #6</h5>
                                     <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein. </p>
                                   </div>
                                 </td>
@@ -206,18 +207,18 @@
                           </div>
                         </div>
                         <div class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
-                          <h2 class="header h2" style="line-height: 30px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0; padding: 20px;">MITGLIEDER - NEWS</h2>
+                          <h2 class="header h2" style="line-height: 30px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0; padding: 20px;">MITGLIEDER - NEWS</h2>
                         </div>
-                        <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-right">
-                          <div class="row" style="direction: rtl;">
+                        <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
+                          <div class="article row" style="margin: 15px 0; direction: rtl;">
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px;width: 33%" align="left" valign="top">
-                                  <img heml-ignore="" class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
+                                  <img heml-ignore="" class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px;width: 67%" align="left" valign="top">
-                                  <div mc:edit="mitglieder-article-right" style="direction: ltr;">
-                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; margin-top: 5px;"><i>Mitglied der Woche: Second Elements</i></h5>
+                                  <div mc:edit="mitglieder-article-left" style="direction: ltr;">
+                                    <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px;"><i>Mitglied der Woche: Second Elements</i></h4>
                                     <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Die Second Elements GmbH & Co. KG ist nun auch mit einem Standort in Berlin im Bereich Digitalem Marketing vertreten. Was heute „in“ ist, kann morgen schon „out“ sein. Unsere Digital Marketing Agentur bringt das notwendige Feingespür mit, um solchen lukrative Entwicklungen bereits im Ansatz zu erkennen. Mit uns gelingt Ihnen der digitale Fortschritt! </p>
                                   </div>
                                 </td>
@@ -225,16 +226,16 @@
                             </table>
                           </div>
                         </div>
-                        <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
-                          <div class="row">
+                        <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-right">
+                          <div class="article row" style="margin: 15px 0;">
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px;width: 33%" align="left" valign="top">
-                                  <img heml-ignore="" class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
+                                  <img heml-ignore="" class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px;width: 67%" align="left" valign="top">
-                                  <div mc:edit="mitglieder-article-left">
-                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; margin-top: 5px;"><i>Podcast-App für das Funkhaus Nürnberg</i></h5>
+                                  <div mc:edit="mitglieder-article-right">
+                                    <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px;"><i>Podcast-App für das Funkhaus Nürnberg</i></h4>
                                     <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Aus der Region, für die Region – Das Berliner Softwareunternehmen KONSOLE Labs entwickelt mit PodYou eine eigenständige Podcast-App für das Funkhaus Nürnberg. Ziel ist es, Audio-Fans eine regional zentrierte Content-Plattform zu bieten und sie mit Podcast-Inhalten aus ihrer Region zu versorgen. </p>
                                   </div>
                                 </td>
@@ -242,7 +243,7 @@
                             </table>
                           </div>
                         </div>
-                        <div class="row">
+                        <div class="article row" style="margin: 15px 0;">
                           <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                             <tr class="row__row">
                               <td class="column col-sm-12" width="198" style="padding: 0 20px;width: 33%" align="left" valign="top">
@@ -252,7 +253,7 @@
                               </td>
                               <td class="column col-sm-12" width="402" style="padding: 0 20px;width: 67%" align="left" valign="top">
                                 <div mc:repeatable="weitere-news" style="padding: 5px 0px;">
-                                  <p mc:edit="weitere-news-link" class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;">
+                                  <p class="arrow-list-item text p" mc:edit="weitere-news-link" style="display: block; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify; margin: 10px 0;">
                                     <span class="fwd-arrow" style="color: #125DA7; margin-right: 7px;"> ▶▶ </span> weitere News 1
                                   </p>
                                 </div>
@@ -261,20 +262,20 @@
                           </table>
                         </div>
                         <div class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
-                          <h2 class="header h2" style="line-height: 30px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0; padding: 20px;">EVENTKALENDER</h2>
+                          <h2 class="header h2" style="line-height: 30px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0; padding: 20px;">EVENTKALENDER</h2>
                         </div>
                         <div class="row">
                           <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                             <tr class="row__row">
                               <td class="column col-sm-12" width="300" style="padding: 0 20px;width: 50%" align="left" valign="top">
                                 <div mc:edit="eventkalender-article">
-                                  <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; margin-top: 5px;"><i>media:net COOP: Matching Day goes online</i></h5>
+                                  <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px;"><i>media:net COOP: Matching Day goes online</i></h4>
                                   <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme! </p>
                                 </div>
                               </td>
                               <td class="column col-sm-12" width="300" style="padding: 0 20px;width: 50%" align="left" valign="top">
                                 <div mc:repeatable="weiteres-event" style="padding: 5px 0px;">
-                                  <p mc:edit="weiteres-event-link" class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;">
+                                  <p class="arrow-list-item text p" mc:edit="weiteres-event-link" style="display: block; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify; margin: 10px 0;">
                                     <span class="fwd-arrow" style="color: #125DA7; margin-right: 7px;"> ▶▶ </span> weiteres Event 1
                                   </p>
                                 </div>
@@ -283,7 +284,7 @@
                           </table>
                         </div>
                         <div class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
-                          <h2 class="header h2" style="line-height: 30px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0; padding: 20px;">JOBS</h2>
+                          <h2 class="header h2" style="line-height: 30px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0; padding: 20px;">JOBS</h2>
                         </div>
                         <div mc:repeatable="job-section">
                           <div class="row">
@@ -304,10 +305,10 @@
                           </div>
                         </div>
                         <div class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
-                          <h2 class="header h2" style="line-height: 30px; font-family: Helvetica,Arial,sans-serif; color: #125DA7; margin: 0; padding: 20px;">KOOPERATIONEN</h2>
+                          <h2 class="header h2" style="line-height: 30px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0; padding: 20px;">KOOPERATIONEN</h2>
                         </div>
                         <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-right">
-                          <div class="row">
+                          <div class="article row" style="margin: 15px 0;">
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px;width: 33%" align="left" valign="top">
@@ -315,7 +316,7 @@
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px;width: 67%" align="left" valign="top">
                                   <div mc:edit="kooperationen-article-right">
-                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; margin-top: 5px;"><i>media:net COOP: <br /> 3. Ostdeutscher Unternehmertag 2021</i></h5>
+                                    <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px;"><i>media:net COOP: <br /> 3. Ostdeutscher Unternehmertag 2021</i></h4>
                                     <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Am 22. April 2021 von 10:00 bis 17:30 Uhr sind Sie und über 100 Teilnehmer*innen aus Mittelstand, Wissenschaft und Politik zu dem Praxisforum der ostdeutschen Wirtschaft eingeladen. </p>
                                   </div>
                                 </td>
@@ -324,7 +325,7 @@
                           </div>
                         </div>
                         <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-left">
-                          <div class="row" style="direction: rtl;">
+                          <div class="article row" style="margin: 15px 0; direction: rtl;">
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px;width: 33%" align="left" valign="top">
@@ -332,7 +333,7 @@
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px;width: 67%" align="left" valign="top">
                                   <div mc:edit="kooperationen-article-left" style="direction: ltr;">
-                                    <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; margin-top: 5px;"><i>media:net COOP: <br /> Matching Day goes online</i></h5>
+                                    <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px;"><i>media:net COOP: <br /> Matching Day goes online</i></h4>
                                     <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme! </p>
                                   </div>
                                 </td>
@@ -350,11 +351,11 @@
                                           <tr class="row__row">
                                             <td class="column col-sm-12" width="600" style="padding: 0 20px;width: 100%" align="left" valign="top">
                                               <p class="social-icons text p" style="display: block; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; margin: 80px 0 30px; text-align: center;">
-                                                <a href="https://www.facebook.com/media.netbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 20px; height: 24px; display: inline;" height="24" /></span></a>
-                                                <a href="https://twitter.com/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 20px; height: 24px; display: inline;" height="24" /></span></a>
-                                                <a href="https://www.instagram.com/medianetbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 20px; height: 24px; display: inline;" height="24" /></span></a>
-                                                <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 20px; height: 24px; display: inline;" height="24" /></span></a>
-                                                <a href="https://www.youtube.com/user/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 20px; height: 24px; display: inline;" height="24" /></span></a>
+                                                <a href="https://www.facebook.com/media.netbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
+                                                <a href="https://twitter.com/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
+                                                <a href="https://www.instagram.com/medianetbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
+                                                <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
+                                                <a href="https://www.youtube.com/user/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
                                               </p>
                                             </td>
                                           </tr>
@@ -365,13 +366,22 @@
                                           <tr class="row__row">
                                             <td class="column col-sm-12" width="300" style="padding: 0 20px;width: 50%" align="left" valign="top">
                                               <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: center;"> Der Sondernewsletter des media:net berlinbrandenburg. <br /> Neuigkeiten aus dem Netzwerk, für das Netzwerk. <br /><br /> Redaktion: Xenia Günther<br /> <br />
-                                                <strong>Impressum:</strong><br /> media:net berlinbrandenburg e.V., <br /> Ackerstraße 3A, 10115 Berlin <br /> T. 030 2462 857 – 10 | F. 030 2462 857 – 19 <br /> newsletter@medianet-bb.de | WEB: www.medianet-bb.de
+                                                <strong>Impressum:</strong><br /> *|LIST:ADDRESS|* <br /> T. 030 2462 857 – 10 | F. 030 2462 857 – 19 <br /> newsletter@medianet-bb.de | WEB: www.medianet-bb.de
                                               </p>
                                             </td>
                                             <td class="column col-sm-12" width="300" style="padding: 0 20px;width: 50%" align="left" valign="top">
                                               <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: center;">
                                                 <strong>Datenschutz</strong> <br /> Registergericht: Amtsgericht Berlin-Charlottenburg <br /> Register-Nummer: 210 86 Nz <br /> Steuernummer: 27/672/51005 <br /> Vorstandsvorsitzende: Jeannine Koch <br /> Aufsichtsratsvorsitzender: Bernd Schiphorst <br /> --- <br /> media:net berlinbrandenburg e.V. ist das Bündnis von mehr als 420 Unternehmen der Medien- und Digitalwirtschaft in Berlin und Brandenburg.
                                               </p>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </div>
+                                      <div class="row">
+                                        <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                                          <tr class="row__row">
+                                            <td class="column col-sm-12" width="600" style="padding: 0 20px;width: 100%" align="left" valign="top">
+                                              <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: center;"><a href="*|UNSUB|*" class="a" style="text-decoration: none;"><span class="a__text" style="text-decoration: none;">unsubscribe</span></a></p>
                                             </td>
                                           </tr>
                                         </table>
