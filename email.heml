@@ -63,6 +63,9 @@
         display: inline;
         margin: 0px 10px;
       }
+      .column {
+        vertical-align: middle;
+      }
     </style>
 
     <font href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap" />
@@ -168,7 +171,6 @@
         <column>
           <div mc:edit="initiativen-article-right">
             <h4><i>Digital Lunch</i></h4>
-            <h5>040 meets 030 #6</h5>
             <p>
               Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein.
             </p>
