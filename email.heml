@@ -92,10 +92,6 @@
         <column>
           <div mc:edit="intro">
             <p>
-            *|IF:FNAME|*
-            Liebe *|FNAME|*,
-            *|END:IF|*
-            <br/>
             In diesem Newsletter gibt es Informationen zu den Themen ... <br/><br/>
             Ic tem am dolor solorest vit voloreprem qui dionseq uatinctia dolore aruptat vel eum, simagnate pre, tes vo-
             luptatet ditas alitatent minimus expla non rem idel iur rempore volo occus ad qui aut ut qui to tem vent dolorer
