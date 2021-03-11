@@ -83,7 +83,13 @@
         }
       }
     </style>
-    <!-- content -->
+    <style>
+      @media only screen and (max-width:600px) {
+        .image {
+          margin-bottom: 20px;
+        }
+      }
+    </style><!-- content -->
     <!--[if !mso]><!-->
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap" rel="stylesheet" type="text/css" />
     <!--<![endif]-->
@@ -108,16 +114,9 @@
                           <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                             <tr class="row__row">
                               <td class="column col-sm-12" width="600" style="padding: 0 20px; vertical-align: middle;width: 100%" align="left" valign="middle">
-                                <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/95279adc-163a-4c1c-98de-2640112bc36a.png" alt="media net header" width="600" border="0" class="img__block" style="display: block; max-width: 100%;width: 100%" />
-                              </td>
-                            </tr>
-                          </table>
-                        </div>
-                        <div class="row">
-                          <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
-                            <tr class="row__row">
-                              <td class="column col-sm-12" width="600" style="padding: 0 20px; vertical-align: middle;width: 100%" align="left" valign="middle">
-                                <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-bottom: 0; margin-top: 20px; text-align: right;"> *|DATE:d / m / y|* </h4>
+                                <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; font-weight: 500; text-align: right;"> *|DATE:d.m.y|* </h5>
+                                <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px; font-weight: 300;">Neuigkeiten <i>aus</i> dem Netzwerk, <i>für</i> das Netzwerk.</h4>
+                                <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/b1d537d2-9a87-4a48-86f4-be88e8c1e825.png" alt="media net header" width="600" border="0" class="img__block" style="display: block; max-width: 100%;width: 100%" />
                               </td>
                             </tr>
                           </table>
@@ -139,7 +138,7 @@
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
-                                  <img heml-ignore="" class="image image-lg" mc:edit="article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 15px;" />
+                                  <img heml-ignore="" class="image image-lg" mc:edit="article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 15px;" />
                                 </td>
                                 <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
                                   <div mc:edit="article-left" style="direction: ltr;">
@@ -156,7 +155,7 @@
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
-                                  <img heml-ignore="" class="image image-lg" mc:edit="article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="illustration" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 15px;" />
+                                  <img heml-ignore="" class="image image-lg" mc:edit="article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 15px;" />
                                 </td>
                                 <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
                                   <div mc:edit="article-right">
@@ -168,7 +167,7 @@
                             </table>
                           </div>
                         </div>
-                        <div class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
+                        <div mc:hideable="" class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
                           <h2 class="header h2" style="line-height: 30px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0; padding: 20px;">NEWS - INITIATIVEN</h2>
                         </div>
                         <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
@@ -176,7 +175,7 @@
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px; vertical-align: middle;width: 33%" align="left" valign="middle">
-                                  <img heml-ignore="" class="image image-sm" mc:edit="initiativen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
+                                  <img heml-ignore="" class="image image-sm" mc:edit="initiativen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 10px;" />
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px; vertical-align: middle;width: 67%" align="left" valign="middle">
                                   <div mc:edit="initiativen-article-left" style="direction: ltr;">
@@ -193,7 +192,7 @@
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px; vertical-align: middle;width: 33%" align="left" valign="middle">
-                                  <img heml-ignore="" class="image image-sm" mc:edit="initiativen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
+                                  <img heml-ignore="" class="image image-sm" mc:edit="initiativen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 10px;" />
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px; vertical-align: middle;width: 67%" align="left" valign="middle">
                                   <div mc:edit="initiativen-article-right">
@@ -205,7 +204,7 @@
                             </table>
                           </div>
                         </div>
-                        <div class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
+                        <div mc:hideable="" class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
                           <h2 class="header h2" style="line-height: 30px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0; padding: 20px;">MITGLIEDER - NEWS</h2>
                         </div>
                         <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
@@ -213,7 +212,7 @@
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px; vertical-align: middle;width: 33%" align="left" valign="middle">
-                                  <img heml-ignore="" class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
+                                  <img heml-ignore="" class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 10px;" />
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px; vertical-align: middle;width: 67%" align="left" valign="middle">
                                   <div mc:edit="mitglieder-article-left" style="direction: ltr;">
@@ -230,7 +229,7 @@
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px; vertical-align: middle;width: 33%" align="left" valign="middle">
-                                  <img heml-ignore="" class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
+                                  <img heml-ignore="" class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 10px;" />
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px; vertical-align: middle;width: 67%" align="left" valign="middle">
                                   <div mc:edit="mitglieder-article-right">
@@ -242,47 +241,49 @@
                             </table>
                           </div>
                         </div>
-                        <div class="article row" style="margin: 15px 0;">
-                          <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
-                            <tr class="row__row">
-                              <td class="column col-sm-12" width="198" style="padding: 0 20px; vertical-align: middle;width: 33%" align="left" valign="middle">
-                                <div style="width: 100%; border: 2px solid #d2dfed; border-radius: 10px;">
-                                  <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify; padding: 10px 10px 100px;">weitere News</p>
-                                </div>
-                              </td>
-                              <td class="column col-sm-12" width="402" style="padding: 0 20px; vertical-align: middle;width: 67%" align="left" valign="middle">
-                                <div mc:repeatable="weitere-news" style="padding: 5px 0px;">
-                                  <p class="arrow-list-item text p" mc:edit="weitere-news-link" style="display: block; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify; margin: 10px 0;">
-                                    <span class="fwd-arrow" style="color: #125DA7; margin-right: 7px;"> ▶▶ </span> weitere News 1
-                                  </p>
-                                </div>
-                              </td>
-                            </tr>
-                          </table>
+                        <div mc:hideable="">
+                          <div class="article row" style="margin: 15px 0;">
+                            <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                              <tr class="row__row">
+                                <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
+                                  <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px;">Weitere News</h4>
+                                </td>
+                                <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
+                                  <div mc:repeatable="weitere-news" style="padding: 5px 0px;">
+                                    <p class="arrow-list-item text p" mc:edit="weitere-news-link" style="display: block; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify; margin: 10px 0;">
+                                      <span class="fwd-arrow" style="color: #125DA7; margin-right: 7px;"> ▶▶ </span> weitere News 1
+                                    </p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
                         </div>
-                        <div class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
+                        <div mc:hideable="" class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
                           <h2 class="header h2" style="line-height: 30px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0; padding: 20px;">EVENTKALENDER</h2>
                         </div>
-                        <div class="row">
-                          <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
-                            <tr class="row__row">
-                              <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
-                                <div mc:edit="eventkalender-article">
-                                  <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px;"><i>media:net COOP: Matching Day goes online</i></h4>
-                                  <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme! </p>
-                                </div>
-                              </td>
-                              <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
-                                <div mc:repeatable="weiteres-event" style="padding: 5px 0px;">
-                                  <p class="arrow-list-item text p" mc:edit="weiteres-event-link" style="display: block; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify; margin: 10px 0;">
-                                    <span class="fwd-arrow" style="color: #125DA7; margin-right: 7px;"> ▶▶ </span> weiteres Event 1
-                                  </p>
-                                </div>
-                              </td>
-                            </tr>
-                          </table>
+                        <div mc:hideable="">
+                          <div class="row">
+                            <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                              <tr class="row__row">
+                                <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
+                                  <div mc:edit="eventkalender-article">
+                                    <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 5px;"><i>media:net COOP: Matching Day goes online</i></h4>
+                                    <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;"> Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme! </p>
+                                  </div>
+                                </td>
+                                <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
+                                  <div mc:repeatable="weiteres-event" style="padding: 5px 0px;">
+                                    <p class="arrow-list-item text p" mc:edit="weiteres-event-link" style="display: block; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify; margin: 10px 0;">
+                                      <span class="fwd-arrow" style="color: #125DA7; margin-right: 7px;"> ▶▶ </span> weiteres Event 1
+                                    </p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
                         </div>
-                        <div class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
+                        <div mc:hideable="" class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
                           <h2 class="header h2" style="line-height: 30px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0; padding: 20px;">JOBS</h2>
                         </div>
                         <div mc:repeatable="job-section">
@@ -290,12 +291,12 @@
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
-                                  <img heml-ignore="" class="image image-lg" mc:edit="job-image" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 15px;" />
+                                  <img heml-ignore="" class="image image-lg" mc:edit="job-image" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 15px;" />
                                   <p mc:edit="job-text-left" class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;">UX/UI Designer</p>
                                 </td>
                                 <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
                                   <div mc:hideable="">
-                                    <img heml-ignore="" class="image image-lg" mc:edit="job-image" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 15px;" />
+                                    <img heml-ignore="" class="image image-lg" mc:edit="job-image" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 15px;" />
                                     <p mc:edit="job-text-right" class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;">Project Manager</p>
                                   </div>
                                 </td>
@@ -303,7 +304,7 @@
                             </table>
                           </div>
                         </div>
-                        <div class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
+                        <div mc:hideable="" class="header-box" style="background-color: #D2DFED; border-radius: 10px; margin: 20px 10px; text-align: center;">
                           <h2 class="header h2" style="line-height: 30px; font-family: Bitter,Helvetica; color: #125DA7; margin: 0; padding: 20px;">KOOPERATIONEN</h2>
                         </div>
                         <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-right">
@@ -311,7 +312,7 @@
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px; vertical-align: middle;width: 33%" align="left" valign="middle">
-                                  <img heml-ignore="" class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/161febb9-79bd-4ac9-991a-1cce5b01986d.png" alt="S - E" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
+                                  <img heml-ignore="" class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/161febb9-79bd-4ac9-991a-1cce5b01986d.png" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 10px;" />
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px; vertical-align: middle;width: 67%" align="left" valign="middle">
                                   <div mc:edit="kooperationen-article-right">
@@ -328,7 +329,7 @@
                             <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
                               <tr class="row__row">
                                 <td class="column col-sm-12" width="198" style="padding: 0 20px; vertical-align: middle;width: 33%" align="left" valign="middle">
-                                  <img heml-ignore="" class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/eb1fb962-0874-498f-bcf1-cea2139bb822.png" alt="radio zentrale" style="border: 2px solid #D2DFED; max-width: 100%; border-radius: 10px;" />
+                                  <img heml-ignore="" class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/eb1fb962-0874-498f-bcf1-cea2139bb822.png" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 10px;" />
                                 </td>
                                 <td class="column col-sm-12" width="402" style="padding: 0 20px; vertical-align: middle;width: 67%" align="left" valign="middle">
                                   <div mc:edit="kooperationen-article-left" style="direction: ltr;">
@@ -340,56 +341,58 @@
                             </table>
                           </div>
                         </div>
-                        <div class="container" style="margin: 0 auto; max-width: 600px; width: 100%; background-color: #D2DFED; padding-bottom: 20px; margin-top: 20px;"> <!--[if mso | IE]> <table class="container__table__ie" role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin-right: auto; margin-left: auto;width: 600px" width="600" align="center">
-                            <tr>
-                              <td> <![endif]--> <table class="container__table" role="presentation" border="0" align="center" cellpadding="0" cellspacing="0" width="100%">
-                                  <tr class="container__row">
-                                    <td class="container__cell" width="100%" align="left" valign="top" style="background-color: #D2DFED; padding-bottom: 20px;" bgcolor="#D2DFED">
-                                      <div class="row">
-                                        <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
-                                          <tr class="row__row">
-                                            <td class="column col-sm-12" width="600" style="padding: 0 20px; vertical-align: middle;width: 100%" align="left" valign="middle">
-                                              <p class="social-icons text p" style="display: block; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; margin: 80px 0 30px; text-align: center;">
-                                                <a href="https://www.facebook.com/media.netbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
-                                                <a href="https://twitter.com/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
-                                                <a href="https://www.instagram.com/medianetbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
-                                                <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
-                                                <a href="https://www.youtube.com/user/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
-                                              </p>
-                                            </td>
-                                          </tr>
-                                        </table>
-                                      </div>
-                                      <div class="row">
-                                        <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
-                                          <tr class="row__row">
-                                            <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
-                                              <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: center;"> Der Sondernewsletter des media:net berlinbrandenburg. <br /> Neuigkeiten aus dem Netzwerk, für das Netzwerk. <br /><br /> Redaktion: Xenia Günther<br /> <br />
-                                                <strong>Impressum:</strong><br /> *|LIST:ADDRESS|* <br /> T. 030 2462 857 – 10 | F. 030 2462 857 – 19 <br /> newsletter@medianet-bb.de | WEB: www.medianet-bb.de
-                                              </p>
-                                            </td>
-                                            <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
-                                              <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: center;">
-                                                <strong>Datenschutz</strong> <br /> Registergericht: Amtsgericht Berlin-Charlottenburg <br /> Register-Nummer: 210 86 Nz <br /> Steuernummer: 27/672/51005 <br /> Vorstandsvorsitzende: Jeannine Koch <br /> Aufsichtsratsvorsitzender: Bernd Schiphorst <br /> --- <br /> media:net berlinbrandenburg e.V. ist das Bündnis von mehr als 420 Unternehmen der Medien- und Digitalwirtschaft in Berlin und Brandenburg.
-                                              </p>
-                                            </td>
-                                          </tr>
-                                        </table>
-                                      </div>
-                                      <div class="row">
-                                        <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
-                                          <tr class="row__row">
-                                            <td class="column col-sm-12" width="600" style="padding: 0 20px; vertical-align: middle;width: 100%" align="left" valign="middle">
-                                              <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: center;"><a href="*|UNSUB|*" class="a" style="text-decoration: none;"><span class="a__text" style="text-decoration: none;">unsubscribe</span></a></p>
-                                            </td>
-                                          </tr>
-                                        </table>
-                                      </div>
-                                    </td>
-                                  </tr>
-                                </table> <!--[if mso | IE]> </td>
+                        <div class="row" style="background-color: #D2DFED; border-radius: 15px; margin: 20px 0; padding-bottom: 20px;">
+                          <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                            <tr class="row__row">
+                              <td class="column col-sm-12" width="600" style="padding: 0 20px; vertical-align: middle;width: 100%" align="left" valign="middle">
+                                <div class="row">
+                                  <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                                    <tr class="row__row">
+                                      <td class="column col-sm-12" width="600" style="padding: 0 20px; vertical-align: middle;width: 100%" align="left" valign="middle">
+                                        <p class="social-icons text p" style="display: block; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; margin: 80px 0 30px; text-align: center;">
+                                          <a href="https://www.facebook.com/media.netbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
+                                          <a href="https://twitter.com/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net twitter" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
+                                          <a href="https://www.instagram.com/medianetbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
+                                          <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
+                                          <a href="https://www.youtube.com/user/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div class="row">
+                                  <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                                    <tr class="row__row">
+                                      <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
+                                        <div mc:edit="footer-left">
+                                          <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: left;"> Der Sondernewsletter des media:net berlinbrandenburg. <br /> Neuigkeiten aus dem Netzwerk, für das Netzwerk. <br /><br /> Redaktion: Xenia Günther<br /> <br />
+                                            <strong>Impressum:</strong><br /> *|LIST:ADDRESS|* <br /> T. 030 2462 857 – 10 | F. 030 2462 857 – 19 <br /> newsletter@medianet-bb.de | WEB: www.medianet-bb.de
+                                          </p>
+                                        </div>
+                                      </td>
+                                      <td class="column col-sm-12" width="300" style="padding: 0 20px; vertical-align: middle;width: 50%" align="left" valign="middle">
+                                        <div mc:edit="footer-right">
+                                          <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: left;">
+                                            <strong>Datenschutz</strong> <br /> Registergericht: Amtsgericht Berlin-Charlottenburg <br /> Register-Nummer: 210 86 Nz <br /> Steuernummer: 27/672/51005 <br /> Vorstandsvorsitzende: Jeannine Koch <br /> Aufsichtsratsvorsitzender: Bernd Schiphorst <br /> --- <br /> media:net berlinbrandenburg e.V. ist das Bündnis von mehr als 420 Unternehmen der Medien- und Digitalwirtschaft in Berlin und Brandenburg.
+                                          </p>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div class="row">
+                                  <table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                                    <tr class="row__row">
+                                      <td class="column col-sm-12" width="600" style="padding: 0 20px; vertical-align: middle;width: 100%" align="left" valign="middle">
+                                        <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: center;"><strong><a href="*|UNSUB|*" class="a" style="color: #000000; text-decoration: none;"><span class="a__text" style="color: #000000; text-decoration: none;">Click here to unsubscribe</span></a></strong></p>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </td>
                             </tr>
-                          </table> <![endif]--> </div>
+                          </table>
+                        </div>
                       </td>
                     </tr>
                   </table> <!--[if mso | IE]> </td>

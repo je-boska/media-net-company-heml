@@ -39,7 +39,8 @@
       }
       .image {
         max-width: 100%; 
-        border: 2px solid #d2dfed; 
+        border: 2px solid #d2dfed;
+        display: block;
       }
       .image-lg {
         border-radius: 15px;
@@ -66,6 +67,14 @@
       .column {
         vertical-align: middle;
       }
+      .start-align-column .column {
+        vertical-align: top;
+      }
+      @media only screen and (max-width: 600px) {
+        .image {
+          margin-bottom: 20px;
+        }
+      }
     </style>
 
     <font href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap" />
@@ -73,18 +82,13 @@
   </head>
   <body>
     <container>
-
       <row>
         <column>
-          <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/95279adc-163a-4c1c-98de-2640112bc36a.png" alt="media net header" width="100%" />
-        </column>
-      </row>
-
-      <row>
-        <column>
-          <h4 style="margin-top: 20px; margin-bottom: 0px; text-align: right;">
-            *|DATE:d / m / y|*
-          </h4>
+          <h5 style="font-weight: 500; text-align: right;">
+            *|DATE:d.m.y|*
+          </h5>
+          <h4 style="font-weight: 300;">Neuigkeiten <i>aus</i> dem Netzwerk, <i>für</i> das Netzwerk.</h4>
+          <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/b1d537d2-9a87-4a48-86f4-be88e8c1e825.png" alt="media net header" width="100%" />
         </column>
       </row>
 
@@ -110,7 +114,7 @@
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
       <row class="article" style="direction: rtl;">
         <column>
-          <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" alt="man" />
+          <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" />
         </column>
         <column>
           <div mc:edit="article-left" style="direction: ltr;">
@@ -126,7 +130,7 @@
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Right">
       <row class="article">
         <column>
-          <img heml-ignore class="image image-lg" mc:edit="article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" alt="illustration" />
+          <img heml-ignore class="image image-lg" mc:edit="article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" />
         </column>
         <column>
           <div mc:edit="article-right">
@@ -139,14 +143,14 @@
       </row>
       </div>
 
-      <div class="header-box">
+      <div mc:hideable class="header-box">
         <h2 style="padding: 20px;">NEWS - INITIATIVEN</h2>
       </div>
 
       <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
       <row class="article" style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" alt="law online" />
+          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" />
         </column>
         <column>
           <div mc:edit="initiativen-article-left" style="direction: ltr;">
@@ -162,7 +166,7 @@
       <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
       <row class="article">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-right-img"src="https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" alt="digital lunch" />
+          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-right-img"src="https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" />
         </column>
         <column>
           <div mc:edit="initiativen-article-right">
@@ -175,14 +179,14 @@
       </row>
       </div>
 
-      <div class="header-box">
+      <div mc:hideable class="header-box">
         <h2 style="padding: 20px;">MITGLIEDER - NEWS</h2>
       </div>
 
       <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
       <row class="article" style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" alt="S - E" />
+          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" />
         </column>
         <column>
           <div mc:edit="mitglieder-article-left" style="direction: ltr;">
@@ -198,7 +202,7 @@
       <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-right">
       <row class="article">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" alt="radio zentrale" />
+          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" />
         </column>
         <column>
           <div mc:edit="mitglieder-article-right">
@@ -211,9 +215,10 @@
       </row>
       </div>
 
+      <div mc:hideable>
       <row class="article">
-        <column large="4" small="12">
-          <div style="width: 100%; border: 2px solid #d2dfed; border-radius: 10px;"><p style="padding: 10px 10px 100px 10px; ">weitere News</p></div>
+        <column>
+          <h4>Weitere News</h4>
         </column>
         <column>
           <div mc:repeatable="weitere-news" style="padding: 5px 0px;">
@@ -226,11 +231,13 @@
           </div>
         </column>
       </row>
+      </div>
 
-      <div class="header-box">
+      <div mc:hideable class="header-box">
         <h2 style="padding: 20px;">EVENTKALENDER</h2>
       </div>
 
+      <div mc:hideable>
       <row>
         <column>
           <div mc:edit="eventkalender-article">
@@ -251,8 +258,9 @@
           </div>
         </column>
       </row>
+      </div>
 
-      <div class="header-box">
+      <div mc:hideable class="header-box">
         <h2 style="padding: 20px;">JOBS</h2>
       </div>
 
@@ -271,14 +279,14 @@
       </row>
       </div>
 
-      <div class="header-box">
+      <div mc:hideable class="header-box">
         <h2 style="padding: 20px;">KOOPERATIONEN</h2>
       </div>
 
       <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-right">
       <row class="article">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/161febb9-79bd-4ac9-991a-1cce5b01986d.png" alt="S - E" />
+          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/161febb9-79bd-4ac9-991a-1cce5b01986d.png" />
         </column>
         <column>
           <div mc:edit="kooperationen-article-right">
@@ -294,7 +302,7 @@
       <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-left">
       <row class="article" style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/eb1fb962-0874-498f-bcf1-cea2139bb822.png" alt="radio zentrale" />
+          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/eb1fb962-0874-498f-bcf1-cea2139bb822.png" />
         </column>
         <column>
           <div mc:edit="kooperationen-article-left" style="direction: ltr;">
@@ -307,21 +315,22 @@
       </row>
       </div>
 
-      <container style="background-color: #d2dfed; margin-top: 20px; padding-bottom: 20px;">
+      <div style="border-radius: 15px; background-color: #d2dfed; margin: 20px 0px 20px 0px; padding-bottom: 20px;">
         <row>
           <column>
             <p class="social-icons">
               <a href="https://www.facebook.com/media.netbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" /></a>
-              <a href="https://twitter.com/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net facebook" /></a>
-              <a href="https://www.instagram.com/medianetbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net facebook" /></a>
-              <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net facebook" /></a>
-              <a href="https://www.youtube.com/user/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net facebook" /></a>
+              <a href="https://twitter.com/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net twitter" /></a>
+              <a href="https://www.instagram.com/medianetbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" /></a>
+              <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" /></a>
+              <a href="https://www.youtube.com/user/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" /></a>
             </p>
           </column>
         </row>
         <row>
           <column>
-            <p style="text-align: center;">
+          <div mc:edit="footer-left">
+            <p style="text-align: left;">
               Der Sondernewsletter des media:net berlinbrandenburg. <br/>
               Neuigkeiten aus dem Netzwerk, für das Netzwerk. <br/><br/>
 
@@ -332,9 +341,11 @@
               *|LIST:ADDRESS|* <br/>
               T. 030 2462 857 – 10 | F. 030 2462 857 – 19 <br/>
               newsletter@medianet-bb.de | WEB: www.medianet-bb.de</p> 
+          </div>
           </column>
           <column>
-            <p style="text-align: center;">
+          <div mc:edit="footer-right">
+            <p style="text-align: left;">
               <strong>Datenschutz</strong> <br/>
 
               Registergericht: Amtsgericht Berlin-Charlottenburg <br/>
@@ -345,14 +356,15 @@
               --- <br/>
               media:net berlinbrandenburg e.V. ist das Bündnis von mehr als 420 Unternehmen der Medien- und Digitalwirtschaft in Berlin und Brandenburg.
             </p> 
+          </div>
           </column>
         </row>
         <row>
           <column>
-            <p style="text-align: center;"><a style="text-decoration: none;" href="*|UNSUB|*">unsubscribe</a></p>
+            <p style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Click here to unsubscribe</a></strong></p>
           </column>
         </row>
-      </container>
+      </div>
 
     </container>
   </body>
