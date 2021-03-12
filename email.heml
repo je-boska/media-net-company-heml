@@ -64,12 +64,6 @@
         display: inline;
         margin: 0px 10px;
       }
-      .column {
-        vertical-align: middle;
-      }
-      .start-align-column .column {
-        vertical-align: top;
-      }
       @media only screen and (max-width: 600px) {
         .image {
           margin-bottom: 20px;
