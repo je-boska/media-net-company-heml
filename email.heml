@@ -64,10 +64,20 @@
         display: inline;
         margin: 0px 10px;
       }
+
       @media only screen and (max-width: 600px) {
         .image {
           margin-bottom: 20px;
         }
+      }
+    </style>
+
+    <style heml-embed>
+      /**
+      * @tab Column
+      */
+      .column {
+        /* @editable */ vertical-align: middle;
       }
     </style>
 
@@ -108,7 +118,7 @@
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
       <row class="article" style="direction: rtl;">
         <column>
-          <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2bca7fc2-2130-446c-ac53-7f7d610f28e9.png" />
+          <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
         </column>
         <column>
           <div mc:edit="article-left" style="direction: ltr;">
@@ -124,7 +134,7 @@
       <div mc:repeatable="topnews-article" mc:variant="Topnews Article Right">
       <row class="article">
         <column>
-          <img heml-ignore class="image image-lg" mc:edit="article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/3306d1f5-600f-44a9-a510-c4f6d87d0c0a.png" />
+          <img heml-ignore class="image image-lg" mc:edit="article-right-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
         </column>
         <column>
           <div mc:edit="article-right">
@@ -144,7 +154,7 @@
       <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
       <row class="article" style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0bef75ce-3699-4051-bf7b-1c6df835c84d.png" />
+          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
         </column>
         <column>
           <div mc:edit="initiativen-article-left" style="direction: ltr;">
@@ -160,7 +170,7 @@
       <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
       <row class="article">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-right-img"src="https://mcusercontent.com/7140691abc4c72842929acd78/images/a27bff61-4886-4f91-be22-619766297f8b.png" />
+          <img heml-ignore class="image image-sm" mc:edit="initiativen-article-right-img"src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
         </column>
         <column>
           <div mc:edit="initiativen-article-right">
@@ -180,7 +190,7 @@
       <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
       <row class="article" style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/dd608d8b-f88a-4be8-ba6a-8c359aad1e5a.png" />
+          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
         </column>
         <column>
           <div mc:edit="mitglieder-article-left" style="direction: ltr;">
@@ -196,7 +206,7 @@
       <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-right">
       <row class="article">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/15a09e15-9953-4bfb-b841-7b5d02b09c7e.png" />
+          <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
         </column>
         <column>
           <div mc:edit="mitglieder-article-right">
@@ -261,12 +271,12 @@
       <div mc:repeatable="job-section">
       <row>
         <column>
-          <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" />
+          <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
           <p mc:edit="job-text-left">UX/UI Designer</p>
         </column>
         <column>
           <div mc:hideable>
-            <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/2af93825-b895-4000-8321-753159857cfd.png" />
+            <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
             <p mc:edit="job-text-right">Project Manager</p>
           </div>
         </column>
@@ -280,7 +290,7 @@
       <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-right">
       <row class="article">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/161febb9-79bd-4ac9-991a-1cce5b01986d.png" />
+          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
         </column>
         <column>
           <div mc:edit="kooperationen-article-right">
@@ -296,7 +306,7 @@
       <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-left">
       <row class="article" style="direction: rtl;">
         <column large="4" small="12">
-          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/eb1fb962-0874-498f-bcf1-cea2139bb822.png" />
+          <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
         </column>
         <column>
           <div mc:edit="kooperationen-article-left" style="direction: ltr;">
