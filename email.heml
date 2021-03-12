@@ -72,15 +72,6 @@
       }
     </style>
 
-    <style heml-embed>
-      /**
-      * @tab Column
-      */
-      .column {
-        /* @editable */ vertical-align: middle;
-      }
-    </style>
-
     <font href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap" />
 
   </head>
