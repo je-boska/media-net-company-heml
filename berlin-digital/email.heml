@@ -56,6 +56,9 @@
         display: inline;
         margin: 0px 10px;
       }
+			.news-article {
+				vertical-align: top;
+			}
 
       @media only screen and (max-width: 600px) {
         .image {
@@ -135,7 +138,7 @@
 
       <div mc:repeatable="news-article" mc:variant="news-article-left">
       <row class="article">
-        <column>
+        <column class="news-article">
           <div mc:edit="news-article-left">
             <h4><i>media:net COOP:<br/>Matching Day goes online</i></h4>
             <p>
@@ -143,7 +146,7 @@
             </p>
           </div>
         </column>
-        <column>
+        <column class="news-article">
           <div mc:hideable mc:edit="news-article-right" >
             <h4><i>media:net COOP:<br/>Matching Day goes online</i></h4>
             <p>
