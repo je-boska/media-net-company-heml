@@ -1,0 +1,168 @@
+<heml>
+  <head>
+	  <subject>media:net berlinbrandenburg - berlin.digital</subject>
+    <preview>aggregating the digital.berlin</preview>
+
+    <style>
+      h1 {
+        font-size: 40px;
+      }
+      h1, h2, h3, h4 {
+        font-family: Bitter, Helvetica;
+      }
+      h4 {
+        margin-top: 15px;
+      }
+      p {
+        font-size: 12px;
+        text-align: justify;
+      }
+      column {
+        padding: 0 20px;
+      }
+      .article {
+        margin: 15px 0px;
+      }
+      .image {
+        max-width: 100%; 
+        border: 2px solid #d2dfed;
+        display: block;
+      }
+      .image-lg {
+        border-radius: 15px;
+      }
+      .fwd-arrow {
+        color: #125da7; 
+        margin-right: 7px;
+      }
+      .social-icons {
+        text-align: center;
+        margin: 80px 0px 30px 0px;
+      }
+      .social-icons img {
+        height: 24px;
+        display: inline;
+        margin: 0px 10px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .image {
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+
+		<font href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap" />
+
+  </head>
+  <body>
+	  <container>
+
+      <row>
+        <column>
+          <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/9806b1e6-4e64-467a-a801-2ac24b76b0ba.png" alt="media:net JOBBÖRSE" width="100%" />
+          <h5 style="font-weight: 500; text-align: right;">
+            *|DATE:d.m.y|*
+          </h5>
+        </column>
+      </row>
+
+      <row style="padding-bottom: 30px;">
+        <column>
+          <div mc:edit="intro">
+            <p>
+            In diesem Newsletter gibt es <strong>die neusten Events unserer Initiativen:</strong> <br/><br/>
+            Ic tem am dolor solorest vit voloreprem qui dionseq uatinctia dolore aruptat vel eum, simagnate pre, tes vo-
+            luptatet ditas alitatent minimus expla non rem idel iur rempore volo occus ad qui aut ut qui to tem vent dolorer
+            feribusae mo torenet exero totaernam que landae viti berum quo tem nonem et estio. Ita volupta tiandelique
+            reicidi susa conet mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? mosa nessitem
+            diti officiis doluptur? Et remoditas aria culparum aritatem dolore estis ut dolorro rrorehe ndent. Genduci
+            magnam etur andi <br/><br/>
+            Ihr media:net berlinbrandenburg!
+            </p>
+          </div>
+        </column>
+      </row>
+
+      <div mc:repeatable="job-section">
+      <row>
+        <column>
+          <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
+          <h4 mc:edit="job-text-left"><i>UX/UI Designer</i></h4>
+        </column>
+        <column>
+          <div mc:hideable>
+            <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
+            <h4 mc:edit="job-text-right"><i>Project Manager</i></h4>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <row>
+        <column>
+            <h3 class="arrow-list-item" style="margin-left: 40px;">
+              <span class="fwd-arrow">
+              ▶▶
+              </span>
+            <i>weitere offene Stellen</i>
+            </h3>
+        </column>
+      </row>
+	
+      <div style="border-radius: 15px; background-color: #d2dfed; margin: 20px 10px; padding-bottom: 20px;">
+        <row>
+          <column>
+            <p class="social-icons">
+              <a href="https://www.facebook.com/media.netbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" /></a>
+              <a href="https://twitter.com/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net twitter" /></a>
+              <a href="https://www.instagram.com/medianetbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" /></a>
+              <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" /></a>
+              <a href="https://www.youtube.com/user/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" /></a>
+            </p>
+          </column>
+        </row>
+        <row>
+          <column>
+          <div mc:edit="footer-left">
+            <p style="text-align: left;">
+              Der Sondernewsletter des media:net berlinbrandenburg e.V. informiert über besondere Ereignisse unseres Netzwerks.<br/><br/>
+
+							Empfehlen Sie uns gerne weiter!<br/>
+              Redaktion: Xenia Günther<br/> <br/>
+
+              <strong>Impressum:</strong><br/>
+
+              media:net berlinbrandenburg e.V. <br/>
+              Ackerstraße 3A, 10115 Berlin <br/>
+              T. 030 2462 857 – 10 | F. 030 2462 857 – 19 <br/>
+              newsletter@medianet-bb.de <br/>
+							WEB: www.medianet-bb.de</p> 
+          </div>
+          </column>
+          <column>
+          <div mc:edit="footer-right">
+            <p style="text-align: left;">
+              <strong>Datenschutz</strong> <br/>
+
+              Registergericht: Amtsgericht Berlin-Charlottenburg <br/>
+              Register-Nummer: 210 86 Nz <br/>
+              Steuernummer: 27/672/51005 <br/>
+              Vorstandsvorsitzende: Jeannine Koch <br/>
+              Aufsichtsratsvorsitzender: Bernd Schiphorst <br/>
+              --- <br/>
+              media:net berlinbrandenburg e.V. ist das Bündnis von mehr als 420 Unternehmen der Medien- und Digitalwirtschaft in Berlin und Brandenburg.
+            </p> 
+          </div>
+          </column>
+        </row>
+        <row>
+          <column>
+            <p style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Click here to unsubscribe</a></strong></p>
+          </column>
+        </row>
+      </div>
+
+	  </container>
+  </body>
+</heml>

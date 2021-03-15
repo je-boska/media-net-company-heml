@@ -1,0 +1,10 @@
+{
+  "name": "jobs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "heml build email.heml",
+    "dev": "heml develop email.heml --open"
+  }
+}
