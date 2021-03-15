@@ -1,0 +1,143 @@
+<heml>
+  <head>
+	  <subject>media:net berlinbrandenburg - berlin.digital</subject>
+    <preview>aggregating the digital.berlin</preview>
+
+    <style>
+      h1 {
+        font-size: 40px;
+      }
+      h1, h2, h4 {
+        font-family: Bitter, Helvetica;
+      }
+      h1, h2 {
+        margin: 0px;
+        color: #125da7;
+      }
+      .topnews {
+        color: #000000;
+        font-size: 20px;
+      }
+      h4 {
+        margin-top: 5px;
+      }
+      p {
+        font-size: 12px;
+        text-align: justify;
+      }
+      column {
+        padding: 0 20px;
+      }
+      .article {
+        margin: 15px 0px;
+      }
+      .header-box {
+        text-align: center; 
+        background-color: #d2dfed; 
+        margin: 20px 10px; 
+        border-radius: 10px;
+      }
+      .image {
+        max-width: 100%; 
+        border: 2px solid #d2dfed;
+        display: block;
+      }
+      .image-lg {
+        border-radius: 15px;
+      }
+      .image-sm {
+        border-radius: 10px;
+      }
+      .arrow-list-item {
+        margin: 10px 0px;
+      }
+      .fwd-arrow {
+        color: #125da7; 
+        margin-right: 7px;
+      }
+      .social-icons {
+        text-align: center;
+        margin: 80px 0px 30px 0px;
+      }
+      .social-icons img {
+        height: 24px;
+        display: inline;
+        margin: 0px 10px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .image {
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+
+		<font href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap" />
+
+  </head>
+  <body>
+		<container>
+			<row>
+        <column>
+          <h5 style="font-weight: 500; text-align: right;">
+            *|DATE:d.m.y|*
+          </h5>
+          <h4 style="font-weight: 300;">Neuigkeiten <i>aus</i> dem Netzwerk, <i>für</i> das Netzwerk.</h4>
+          <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/1e5c97f1-6044-4e84-8758-c8c5d26a8605.png" alt="media net header" width="100%" />
+        </column>
+      </row>
+
+      <row style="padding-bottom: 30px;">
+        <column>
+          <div mc:edit="intro">
+            <p>
+            In diesem Newsletter gibt es Informationen zu den Themen ... <br/><br/>
+            Ic tem am dolor solorest vit voloreprem qui dionseq uatinctia dolore aruptat vel eum, simagnate pre, tes vo-
+            luptatet ditas alitatent minimus expla non rem idel iur rempore volo occus ad qui aut ut qui to tem vent dolorer
+            feribusae mo torenet exero totaernam que landae viti berum quo tem nonem et estio. Ita volupta tiandelique
+            reicidi susa conet mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? mosa nessitem
+            diti officiis doluptur? Et remoditas aria culparum aritatem dolore estis ut dolorro rrorehe ndent. Genduci
+            magnam etur andi <br/><br/>
+            Ihr media:net berlinbrandenburg!
+            </p>
+          </div>
+        </column>
+      </row>
+
+      <div style="height: 4px; border-radius: 4px; background-color: #d2dfed; margin: 0px 10px 20px 10px;"></div>
+      
+      <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
+      <row class="article" style="direction: rtl;">
+        <column>
+          <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
+        </column>
+        <column>
+          <div mc:edit="article-left" style="direction: ltr;">
+            <h1><i>1. <span class="topnews">Topnews</span></i></h1>
+            <p>
+              Mit der Tip Berlin Media Group GmbH hat Geschäftsführer Robert Rischke viel vor: Der Multichannel-Verlag aus Berlin, der auf Stadtleben, Kulturberichterstattung und Veranstaltungsdaten spezialisiert ist, hat kürzlich das englischsprachige Magazin Exberliner übernommen. Im Gespräch mit uns verrät Rischke, wie es dazu kam und welche hat.
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <div mc:repeatable="topnews-article" mc:variant="Topnews Article Right">
+      <row class="article">
+        <column>
+          <img heml-ignore class="image image-lg" mc:edit="article-right-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
+        </column>
+        <column>
+          <div mc:edit="article-right">
+            <h1><i>2. <span class="topnews">Topnews</span></i></h1>
+            <p>
+              Im vergangenen Herbst haben wir Unternehmen der Medien-, Kreativ- und Digitalwirtschaft in der Hauptstadtregion gefragt: Wie ergeht es Ihnen seit dem Ausbruch der Corona-Pandemie? Wie hat sich diese auf Ihren Geschäftserfolg, auf Ihre internen Unternehmensstrukturen und -ablä für die Medien-, Kreativ- und Digitalwirtschaft“
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+		</container>
+  </body>
+</heml>
