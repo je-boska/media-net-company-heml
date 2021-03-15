@@ -112,7 +112,7 @@
           <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
         </column>
         <column>
-          <div mc:edit="article-left" style="direction: ltr;">
+          <div mc:edit="topnews-article-left" style="direction: ltr;">
             <h1><i>1. <span class="topnews">Topnews</span></i></h1>
             <p>
               Mit der Tip Berlin Media Group GmbH hat Geschäftsführer Robert Rischke viel vor: Der Multichannel-Verlag aus Berlin, der auf Stadtleben, Kulturberichterstattung und Veranstaltungsdaten spezialisiert ist, hat kürzlich das englischsprachige Magazin Exberliner übernommen. Im Gespräch mit uns verrät Rischke, wie es dazu kam und welche hat.
@@ -128,7 +128,7 @@
           <img heml-ignore class="image image-lg" mc:edit="article-right-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
         </column>
         <column>
-          <div mc:edit="article-right">
+          <div mc:edit="topnews-article-right">
             <h1><i>2. <span class="topnews">Topnews</span></i></h1>
             <p>
               Im vergangenen Herbst haben wir Unternehmen der Medien-, Kreativ- und Digitalwirtschaft in der Hauptstadtregion gefragt: Wie ergeht es Ihnen seit dem Ausbruch der Corona-Pandemie? Wie hat sich diese auf Ihren Geschäftserfolg, auf Ihre internen Unternehmensstrukturen und -ablä für die Medien-, Kreativ- und Digitalwirtschaft“
@@ -310,7 +310,7 @@
       </row>
       </div>
 
-      <div style="border-radius: 15px; background-color: #d2dfed; margin: 20px 0px 20px 0px; padding-bottom: 20px;">
+      <div style="border-radius: 15px; background-color: #d2dfed; margin: 20px 10px; padding-bottom: 20px;">
         <row>
           <column>
             <p class="social-icons">
