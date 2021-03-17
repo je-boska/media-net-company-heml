@@ -38,6 +38,8 @@
         border-radius: 10px;
       }
       .image {
+        width: 100%;
+        height: auto;
         max-width: 100%; 
         border: 2px solid #d2dfed;
         display: block;
@@ -68,6 +70,8 @@
       @media only screen and (max-width: 600px) {
         .image {
           margin-bottom: 20px;
+          width: 100% !important;
+          height: auto !important;
         }
       }
     </style>
@@ -113,7 +117,9 @@
         </column>
         <column>
           <div mc:edit="topnews-article-left" style="direction: ltr;">
-            <h1><i>1. <span class="topnews">Topnews</span></i></h1>
+            <div style="text-align: left;">
+              <h1><i>1. <span class="topnews">Topnews</span></i></h1>
+            </div>
             <p>
               Mit der Tip Berlin Media Group GmbH hat Geschäftsführer Robert Rischke viel vor: Der Multichannel-Verlag aus Berlin, der auf Stadtleben, Kulturberichterstattung und Veranstaltungsdaten spezialisiert ist, hat kürzlich das englischsprachige Magazin Exberliner übernommen. Im Gespräch mit uns verrät Rischke, wie es dazu kam und welche hat.
             </p>
@@ -149,7 +155,9 @@
         </column>
         <column>
           <div mc:edit="initiativen-article-left" style="direction: ltr;">
-            <h4><i>Ca$h me if you can</i></h4>
+            <div style="text-align: left;">
+              <h4><i>Ca$h me if you can</i></h4>
+            </div>
             <p>
               Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein.
             </p>
@@ -185,7 +193,9 @@
         </column>
         <column>
           <div mc:edit="mitglieder-article-left" style="direction: ltr;">
-            <h4><i>Mitglied der Woche: Second Elements</i></h4>
+            <div style="text-align: left;">
+              <h4><i>Mitglied der Woche: Second Elements</i></h4>
+            </div>
             <p>
               Die Second Elements GmbH & Co. KG ist nun auch mit einem Standort in Berlin im Bereich Digitalem Marketing vertreten. Was heute „in“ ist, kann morgen schon „out“ sein. Unsere Digital Marketing Agentur bringt das notwendige Feingespür mit, um solchen lukrative Entwicklungen bereits im Ansatz zu erkennen. Mit uns gelingt Ihnen der digitale Fortschritt!
             </p>
@@ -301,7 +311,9 @@
         </column>
         <column>
           <div mc:edit="kooperationen-article-left" style="direction: ltr;">
-            <h4><i>media:net COOP: <br/> Matching Day goes online</i></h4>
+            <div style="text-align: left;">
+              <h4><i>media:net COOP: <br/> Matching Day goes online</i></h4>
+            </div>
             <p>
               Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme!
             </p>
