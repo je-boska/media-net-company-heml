@@ -86,7 +86,7 @@
           <h5 style="font-weight: 500; text-align: right;">
             *|DATE:d.m.y|*
           </h5>
-          <h4 style="font-weight: 300;">Neuigkeiten <i>aus</i> dem Netzwerk, <i>für</i> das Netzwerk.</h4>
+          <h4 mc:edit="header-text" style="font-weight: 300;">Neuigkeiten <i>aus</i> dem Netzwerk, <i>für</i> das Netzwerk.</h4>
           <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/1e5c97f1-6044-4e84-8758-c8c5d26a8605.png" alt="media net header" width="100%" />
         </column>
       </row>
@@ -239,7 +239,7 @@
       </div>
 
       <div mc:hideable class="header-box">
-        <h2 style="padding: 20px;">EVENTKALENDER</h2>
+        <h2 style="padding: 20px;">EVENT-KALENDER</h2>
       </div>
 
       <div mc:hideable>
@@ -369,7 +369,7 @@
         </row>
         <row>
           <column>
-            <p style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Click here to unsubscribe</a></strong></p>
+            <p style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Klicken Sie hier, um sich abzumelden</a></strong></p>
           </column>
         </row>
       </div>
