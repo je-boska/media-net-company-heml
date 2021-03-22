@@ -54,8 +54,8 @@
         margin: 10px 0px;
       }
       .fwd-arrow {
-        color: #125da7; 
-        margin-right: 7px;
+        margin-top: 4px;
+        float: left;
       }
       .social-icons {
         text-align: center;
@@ -83,10 +83,10 @@
     <container>
       <row>
         <column>
-          <h5 style="font-weight: 500; text-align: right;">
-            *|DATE:d.m.y|*
+          <h5 mc:edit="date" style="font-weight: 500; text-align: right;">
+            DATE HERE
           </h5>
-          <h4 mc:edit="header-text" style="font-weight: 300;">Neuigkeiten <i>aus</i> dem Netzwerk, <i>für</i> das Netzwerk.</h4>
+          <h4 mc:edit="header-text" style="font-weight: 300;">Was geht: media:net Community Updates</h4>
           <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/1e5c97f1-6044-4e84-8758-c8c5d26a8605.png" alt="media net header" width="100%" />
         </column>
       </row>
@@ -228,10 +228,9 @@
         <column>
           <div mc:repeatable="weitere-news" style="padding: 5px 0px;">
             <p class="arrow-list-item" mc:edit="weitere-news-link">
-              <span class="fwd-arrow">
-              ▶▶
-              </span>
-            weitere News 1
+              <img width="12" height="12" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
+              <img width="12" height="12" style="margin-right: 7px;" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
+            &nbsp; weitere News 1
             </p>
           </div>
         </column>
@@ -255,10 +254,9 @@
         <column>
           <div mc:repeatable="weiteres-event" style="padding: 5px 0px;">
             <p class="arrow-list-item" mc:edit="weiteres-event-link">
-              <span class="fwd-arrow">
-              ▶▶
-              </span>
-            weiteres Event 1
+              <img width="12" height="12" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
+              <img width="12" height="12" style="margin-right: 7px;" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
+            &nbsp; weiteres Event 1
             </p>
           </div>
         </column>
@@ -348,7 +346,8 @@
               media:net berlinbrandenburg e.V. <br/>
               Ackerstraße 3A, 10115 Berlin <br/>
               T. 030 2462 857 – 10 | F. 030 2462 857 – 19 <br/>
-              newsletter@medianet-bb.de | WEB: www.medianet-bb.de</p> 
+              newsletter@medianet-bb.de <br/>
+              WEB: www.medianet-bb.de</p> 
           </div>
           </column>
           <column>
