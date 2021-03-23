@@ -74,8 +74,8 @@
 		<container>
 			<row>
         <column>
-          <h5 style="font-weight: 500; text-align: right;">
-            *|DATE:d.m.y|*
+          <h5 mc:edit="date" style="font-weight: 500; text-align: right;">
+            DATE HERE
           </h5>
           <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/6bb70dcc-7a23-4833-886a-453536f991a1.png" alt="media net header" width="100%" />
         </column>
@@ -197,11 +197,11 @@
         <row>
           <column>
             <p class="social-icons">
-              <a href="https://www.facebook.com/media.netbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" /></a>
-              <a href="https://twitter.com/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net twitter" /></a>
-              <a href="https://www.instagram.com/medianetbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" /></a>
-              <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" /></a>
-              <a href="https://www.youtube.com/user/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" /></a>
+              <a href="https://www.facebook.com/media.netbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" /></a>&nbsp;
+              <a href="https://twitter.com/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net twitter" /></a>&nbsp;
+              <a href="https://www.instagram.com/medianetbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" /></a>&nbsp;
+              <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" /></a>&nbsp;
+              <a href="https://www.youtube.com/user/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" /></a>&nbsp;
             </p>
           </column>
         </row>

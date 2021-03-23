@@ -31,8 +31,8 @@
         border-radius: 15px;
       }
       .fwd-arrow {
-        color: #125da7; 
-        margin-right: 7px;
+        float: left;
+        margin-right: 2px;
       }
       .social-icons {
         text-align: center;
@@ -60,8 +60,8 @@
       <row>
         <column>
           <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/9806b1e6-4e64-467a-a801-2ac24b76b0ba.png" alt="media:net JOBBÖRSE" width="100%" />
-          <h5 style="font-weight: 500; text-align: right;">
-            *|DATE:d.m.y|*
+          <h5 mc:edit="date" style="font-weight: 500; text-align: right;">
+            DATE HERE
           </h5>
         </column>
       </row>
@@ -87,12 +87,18 @@
       <row>
         <column>
           <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
-          <h4 mc:edit="job-text-left"><i>UX/UI Designer</i></h4>
+          <div mc:edit="job-text-left">
+            <h4><i>UX/UI Designer</i></h4>
+            <p>Job description here</p>
+          </div>
         </column>
         <column>
           <div mc:hideable>
             <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
-            <h4 mc:edit="job-text-right"><i>Project Manager</i></h4>
+            <div mc:edit="job-text-right">
+              <h4><i>Project Manager</i></h4>
+              <p>Job description here</p>
+            <div>
           </div>
         </column>
       </row>
@@ -100,11 +106,12 @@
 
       <row>
         <column>
-            <h3 class="arrow-list-item" style="margin-left: 40px;">
-              <span class="fwd-arrow">
-              ▶▶
-              </span>
-            <i>weitere offene Stellen</i>
+            <h3 mc:edit="jobs-link" class="arrow-list-item" style="margin-left: 40px;">
+              <a style="text-decoration: none; color: black;" href="https://www.medianet-bb.de/de/jobs/">
+              <img width="22" height="22" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
+              <img width="22" height="22" style="margin-right: 7px;" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
+                &nbsp; weitere offene Stellen
+              </a>
             </h3>
         </column>
       </row>
@@ -113,11 +120,11 @@
         <row>
           <column>
             <p class="social-icons">
-              <a href="https://www.facebook.com/media.netbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" /></a>
-              <a href="https://twitter.com/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net twitter" /></a>
-              <a href="https://www.instagram.com/medianetbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" /></a>
-              <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" /></a>
-              <a href="https://www.youtube.com/user/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" /></a>
+              <a href="https://www.facebook.com/media.netbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" /></a>&nbsp;
+              <a href="https://twitter.com/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net twitter" /></a>&nbsp;
+              <a href="https://www.instagram.com/medianetbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" /></a>&nbsp;
+              <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" /></a>&nbsp;
+              <a href="https://www.youtube.com/user/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" /></a>&nbsp;
             </p>
           </column>
         </row>

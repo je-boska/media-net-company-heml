@@ -131,7 +131,7 @@
 							  <tr class="row__row">
 								<td class="column col-sm-12" width="600" style="padding: 0 20px;width: 100%" align="left" valign="top">
 								  <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/9806b1e6-4e64-467a-a801-2ac24b76b0ba.png" alt="media:net JOBBÖRSE" width="600" border="0" class="img__block" style="display: block; max-width: 100%;width: 100%" />
-								  <h5 class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; font-weight: 500; text-align: right;"> *|DATE:d.m.y|* </h5>
+								  <h5 mc:edit="date" class="header h5" style="margin: 20px 0; line-height: 17px; color: #000000; font-family: Helvetica,Arial,sans-serif; font-weight: 500; text-align: right;"> DATE HERE </h5>
 								</td>
 							  </tr>
 							</table>
@@ -153,12 +153,20 @@
 								<tr class="row__row">
 								  <td class="column col-sm-12" width="300" style="padding: 0 20px;width: 50%" align="left" valign="top">
 									<img heml-ignore="" class="image image-lg" mc:edit="job-image" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 15px;" />
-									<h4 mc:edit="job-text-left" class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 15px;"><i>UX/UI Designer</i></h4>
+									<div mc:edit="job-text-left">
+									  <h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 15px;"><i>UX/UI Designer</i></h4>
+									  <p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;">Job description here</p>
+									</div>
 								  </td>
 								  <td class="column col-sm-12" width="300" style="padding: 0 20px;width: 50%" align="left" valign="top">
 									<div mc:hideable="">
 									  <img heml-ignore="" class="image image-lg" mc:edit="job-image" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" style="border: 2px solid #D2DFED; display: block; max-width: 100%; border-radius: 15px;" />
-									  <h4 mc:edit="job-text-right" class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 15px;"><i>Project Manager</i></h4>
+									  <div mc:edit="job-text-right">
+										<h4 class="header h4" style="margin: 20px 0; color: #000000; font-family: Bitter,Helvetica; margin-top: 15px;"><i>Project Manager</i></h4>
+										<p class="text p" style="display: block; margin: 14px 0; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; text-align: justify;">Job description here</p>
+										<div>
+										</div>
+									  </div>
 									</div>
 								  </td>
 								</tr>
@@ -169,9 +177,10 @@
 							<table class="row__table" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
 							  <tr class="row__row">
 								<td class="column col-sm-12" width="600" style="padding: 0 20px;width: 100%" align="left" valign="top">
-								  <h3 class="arrow-list-item header h3" style="margin: 20px 0; line-height: 24px; color: #000000; font-family: Bitter,Helvetica; margin-left: 40px;">
-									<span class="fwd-arrow" style="color: #125DA7; margin-right: 7px;"> ▶▶ </span>
-									<i>weitere offene Stellen</i>
+								  <h3 mc:edit="jobs-link" class="arrow-list-item header h3" style="margin: 20px 0; line-height: 24px; color: #000000; font-family: Bitter,Helvetica; margin-left: 40px;">
+									<a href="https://www.medianet-bb.de/de/jobs/" class="a" style="color: #000000; text-decoration: none;"><span class="a__text" style="color: #000000; text-decoration: none;">
+										<img width="22" height="22" class="fwd-arrow img__block" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" border="0" style="display: block; max-width: 100%; margin-right: 2px; float: left;" />
+										<img width="22" height="22" class="fwd-arrow img__block" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" border="0" style="display: block; max-width: 100%; float: left; margin-right: 7px;" /> &nbsp; weitere offene Stellen </span></a>
 								  </h3>
 								</td>
 							  </tr>
@@ -183,11 +192,7 @@
 								<tr class="row__row">
 								  <td class="column col-sm-12" width="600" style="padding: 0 20px;width: 100%" align="left" valign="top">
 									<p class="social-icons text p" style="display: block; color: #000000; font-family: Helvetica,Arial,sans-serif; line-height: 20px; font-size: 12px; margin: 80px 0 30px; text-align: center;">
-									  <a href="https://www.facebook.com/media.netbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
-									  <a href="https://twitter.com/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net twitter" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
-									  <a href="https://www.instagram.com/medianetbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
-									  <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
-									  <a href="https://www.youtube.com/user/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>
+									  <a href="https://www.facebook.com/media.netbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>&nbsp; <a href="https://twitter.com/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net twitter" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>&nbsp; <a href="https://www.instagram.com/medianetbb/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>&nbsp; <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>&nbsp; <a href="https://www.youtube.com/user/medianetbb" class="a"><span class="a__text"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" border="0" class="img__block" style="max-width: 100%; margin: 0 10px; height: 24px; display: inline;" height="24" /></span></a>&nbsp;
 									</p>
 								  </td>
 								</tr>
