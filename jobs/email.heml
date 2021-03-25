@@ -86,7 +86,7 @@
       <div mc:repeatable="job-section">
       <row>
         <column>
-          <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
+          <img heml-ignore class="image image-lg" mc:edit="job-image-left" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
           <div mc:edit="job-text-left">
             <h4><i>UX/UI Designer</i></h4>
             <p>Job description here</p>
@@ -94,7 +94,7 @@
         </column>
         <column>
           <div mc:hideable>
-            <img heml-ignore class="image image-lg" mc:edit="job-image" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
+            <img heml-ignore class="image image-lg" mc:edit="job-image-right" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
             <div mc:edit="job-text-right">
               <h4><i>Project Manager</i></h4>
               <p>Job description here</p>
