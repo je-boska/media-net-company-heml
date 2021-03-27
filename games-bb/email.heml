@@ -1,6 +1,6 @@
 <heml>
   <head>
-	  <subject>media:net berlinbrandenburg - EVENTS</subject>
+	  <subject>games:net Berlin Brandenburg</subject>
 
     <style>
       h1 {
@@ -13,7 +13,7 @@
         margin: 0px;
       }
       .number {
-        color: #d4796b;
+        color: #6cb391;
       }
       .topnews {
         color: #000000;
@@ -34,7 +34,7 @@
       }
       .header-box {
         text-align: center; 
-        background-color: #edc9c6; 
+        background-color: #d5c0d4; 
         margin: 20px 10px; 
         border-radius: 10px;
       }
@@ -42,7 +42,7 @@
         width: 100%;
         height: auto;
         max-width: 100%; 
-        border: 2px solid #edc9c6;
+        border: 2px solid #d5c0d4;
         display: block;
       }
       .image-lg {
@@ -85,7 +85,7 @@
 
       <row>
         <column>
-          <img style="margin-top: 30px;" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/9c30bd8e-c1d9-445c-adb1-05de52bbded3.png" alt="media:net JOBBÖRSE" width="100%" />
+          <img style="margin-top: 30px;" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/70594098-33ac-4996-a37a-9dd057b80885.png" alt="media:net JOBBÖRSE" width="100%" />
           <h5 mc:edit="date" style="font-weight: 500; text-align: right;">
             DATE HERE
           </h5>
@@ -144,7 +144,7 @@
       </div>
 
       <div mc:hideable class="header-box">
-        <h2 style="padding: 20px;">NEWS RUND UM DIE GAMES- <br/> BRANCHE BERLIN UND EUROPA</h2>
+        <h2 style="padding: 20px;">NEWS RUND UM DIE GAMES- <br/> BRANCHE IN BERLIN</h2>
       </div>
 
       <div mc:repeatable="events-article" mc:variant="events-article">
@@ -210,7 +210,7 @@
       </row>
       </div>
 
-      <div style="border-radius: 15px; background-color: #edc9c6; margin: 20px 10px; padding-bottom: 20px;">
+      <div style="border-radius: 15px; background-color: #d5c0d4; margin: 20px 10px; padding-bottom: 20px;">
         <row>
           <column>
             <p class="social-icons">
@@ -219,13 +219,6 @@
               <a href="https://www.instagram.com/medianetbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" /></a>&nbsp;
               <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" /></a>&nbsp;
               <a href="https://www.youtube.com/user/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" /></a>&nbsp;
-            </p>
-          </column>
-        </row>
-        <row>
-          <column>
-            <p>
-              The project is financed by the EUROPEAN REGIONAL DEVELOPMENT FUND and the State of Berlin, Senate Department of Economics, Energy, and Public Enterprises through its Program for Internationalization.
             </p>
           </column>
         </row>
