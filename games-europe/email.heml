@@ -1,0 +1,275 @@
+<heml>
+  <head>
+	  <subject>media:net berlinbrandenburg - EVENTS</subject>
+
+    <style>
+      h1 {
+        font-size: 40px;
+      }
+      h1, h2, h4 {
+        font-family: Bitter, Helvetica;
+      }
+      h1, h2 {
+        margin: 0px;
+      }
+      .number {
+        color: #d4796b;
+      }
+      .topnews {
+        color: #000000;
+        font-size: 20px;
+      }
+      h4 {
+        margin-top: 5px;
+      }
+      p {
+        font-size: 12px;
+        text-align: justify;
+      }
+      column {
+        padding: 0 20px;
+      }
+      .article {
+        margin: 15px 0px;
+      }
+      .header-box {
+        text-align: center; 
+        background-color: #edc9c6; 
+        margin: 20px 10px; 
+        border-radius: 10px;
+      }
+      .image {
+        width: 100%;
+        height: auto;
+        max-width: 100%; 
+        border: 2px solid #edc9c6;
+        display: block;
+      }
+      .image-lg {
+        border-radius: 15px;
+      }
+      .image-sm {
+        border-radius: 10px;
+      }
+      .arrow-list-item {
+        margin: 10px 0px;
+      }
+      .fwd-arrow {
+        margin-top: 4px;
+        float: left;
+      }
+      .social-icons {
+        text-align: center;
+        margin: 80px 0px 30px 0px;
+      }
+      .social-icons img {
+        height: 24px;
+        display: inline;
+        margin: 0px 10px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .image {
+          margin-bottom: 20px;
+          width: 100% !important;
+          height: auto !important;
+        }
+      }
+    </style>
+
+    <font href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap" />
+
+  </head>
+  <body>
+	  <container>
+
+      <row>
+        <column>
+          <img style="margin-top: 30px;" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/9c30bd8e-c1d9-445c-adb1-05de52bbded3.png" alt="media:net JOBBÖRSE" width="100%" />
+          <h5 mc:edit="date" style="font-weight: 500; text-align: right;">
+            DATE HERE
+          </h5>
+        </column>
+      </row>
+
+      <row style="padding-bottom: 30px;">
+        <column>
+          <div mc:edit="intro">
+            <p>
+            In diesem Newsletter gibt es <strong>Alles rund um HR-Themen und die Digitalwirtschaft in Berlin</strong> <br/><br/>
+            Ic tem am dolor solorest vit voloreprem qui dionseq uatinctia dolore aruptat vel eum, simagnate pre, tes vo-
+            luptatet ditas alitatent minimus expla non rem idel iur rempore volo occus ad qui aut ut qui to tem vent dolorer
+            feribusae mo torenet exero totaernam que landae viti berum quo tem nonem et estio. Ita volupta tiandelique
+            reicidi susa conet mosa nessitem diti officiis doluptur? mosa nessitem diti officiis doluptur? mosa nessitem
+            diti officiis doluptur? Et remoditas aria culparum aritatem dolore estis ut dolorro rrorehe ndent. Genduci
+            magnam etur andi <br/><br/>
+            Ihr media:net berlinbrandenburg!
+            </p>
+          </div>
+        </column>
+      </row>
+
+      <div mc:repeatable="topnews-article" mc:variant="Topnews Article Left">
+      <row class="article" style="direction: rtl;">
+        <column>
+          <img heml-ignore class="image image-lg" mc:edit="article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
+        </column>
+        <column>
+          <div mc:edit="topnews-article-left" style="direction: ltr;">
+            <div style="text-align: left;">
+              <h1 class="number"><i>1. <span class="topnews">Topnews</span></i></h1>
+            </div>
+            <p>
+              Mit der Tip Berlin Media Group GmbH hat Geschäftsführer Robert Rischke viel vor: Der Multichannel-Verlag aus Berlin, der auf Stadtleben, Kulturberichterstattung und Veranstaltungsdaten spezialisiert ist, hat kürzlich das englischsprachige Magazin Exberliner übernommen. Im Gespräch mit uns verrät Rischke, wie es dazu kam und welche hat.
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <div mc:repeatable="topnews-article" mc:variant="Topnews Article Right">
+      <row class="article">
+        <column>
+          <img heml-ignore class="image image-lg" mc:edit="article-right-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
+        </column>
+        <column>
+          <div mc:edit="topnews-article-right">
+            <h1 class="number"><i>2. <span class="topnews">Topnews</span></i></h1>
+            <p>
+              Im vergangenen Herbst haben wir Unternehmen der Medien-, Kreativ- und Digitalwirtschaft in der Hauptstadtregion gefragt: Wie ergeht es Ihnen seit dem Ausbruch der Corona-Pandemie? Wie hat sich diese auf Ihren Geschäftserfolg, auf Ihre internen Unternehmensstrukturen und -ablä für die Medien-, Kreativ- und Digitalwirtschaft“
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <div mc:hideable class="header-box">
+        <h2 style="padding: 20px;">NEWS RUND UM DIE GAMES- <br/> BRANCHE BERLIN UND EUROPA</h2>
+      </div>
+
+      <div mc:repeatable="events-article" mc:variant="events-article">
+      <row class="article">
+        <column>
+          <div mc:edit="events-article-left">
+            <div>
+              <h4><i>media:net COOP: <br/> Matching Day goes online</i></h4>
+            </div>
+            <p>
+              Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme!
+            </p>
+          </div>
+        </column>
+        <column>
+          <div mc:hideable mc:edit="events-article-right">
+            <div>
+              <h4><i>media:net COOP: <br/> Matching Day goes online</i></h4>
+            </div>
+            <p>
+              Am 03.06.2021 findet erneut das von der Universität Potsdam, der Wirtschaftsförderung Land Brandenburg und dem Potsdam Science Park organisierte Recruiting Event Matching Day goes online statt. media:net Mitglieder erhalten 10% Rabatt auf die Teilnahme!
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <div mc:hideable class="header-box">
+        <h2 style="padding: 20px;">(ONLINE) EVENTS</h2>
+      </div>
+
+      <div mc:repeatable="events-article" mc:variant="events-article-right">
+      <row class="article">
+        <column large="4" small="12">
+          <img heml-ignore class="image image-sm" mc:edit="events-article-right-img"src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
+        </column>
+        <column>
+          <div mc:edit="events-article-right">
+            <h4><i>Digital Lunch</i></h4>
+            <p>
+              Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein.
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <div mc:repeatable="events-article" mc:variant="events-article-left">
+      <row class="article" style="direction: rtl;">
+        <column large="4" small="12">
+          <img heml-ignore class="image image-sm" mc:edit="events-article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
+        </column>
+        <column>
+          <div mc:edit="events-article-left" style="direction: ltr;">
+            <div style="text-align: left;">
+              <h4><i>Ca$h me if you can</i></h4>
+            </div>
+            <p>
+              Zusammen mit der Kanzlei Taylor Wessing, lädt das media:net Sie herzlich zum ersten media:net LAW Online-Seminar in diesem Jahr zum Thema „2021 - neue Gesetzesänderungen, Rechtsprechungen im Crowdworking und Auswirkungen des Brexit für Arbeitgeber“ ein.
+            </p>
+          </div>
+        </column>
+      </row>
+      </div>
+
+      <div style="border-radius: 15px; background-color: #edc9c6; margin: 20px 10px; padding-bottom: 20px;">
+        <row>
+          <column>
+            <p class="social-icons">
+              <a href="https://www.facebook.com/media.netbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="media:net facebook" /></a>&nbsp;
+              <a href="https://twitter.com/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="media:net twitter" /></a>&nbsp;
+              <a href="https://www.instagram.com/medianetbb/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" alt="media:net instagram" /></a>&nbsp;
+              <a href="https://www.linkedin.com/company/media-net-berlinbrandenburg-e-v-/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="media:net linkedin" /></a>&nbsp;
+              <a href="https://www.youtube.com/user/medianetbb"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-youtube-48.png" alt="media:net youtube" /></a>&nbsp;
+            </p>
+          </column>
+        </row>
+        <row>
+          <column>
+            <p>
+              The project is financed by the EUROPEAN REGIONAL DEVELOPMENT FUND and the State of Berlin, Senate Department of Economics, Energy, and Public Enterprises through its Program for Internationalization.
+            </p>
+          </column>
+        </row>
+        <row>
+          <column>
+          <div mc:edit="footer-left">
+            <p style="text-align: left;">
+              Der Sondernewsletter des media:net berlinbrandenburg e.V. informiert über besondere Ereignisse unseres Netzwerks.<br/><br/>
+
+							Empfehlen Sie uns gerne weiter!<br/>
+              Redaktion: Xenia Günther<br/> <br/>
+
+              <strong>Impressum:</strong><br/>
+
+              media:net berlinbrandenburg e.V. <br/>
+              Ackerstraße 3A, 10115 Berlin <br/>
+              T. 030 2462 857 – 10 | F. 030 2462 857 – 19 <br/>
+              newsletter@medianet-bb.de <br/>
+							WEB: www.medianet-bb.de</p> 
+          </div>
+          </column>
+          <column>
+          <div mc:edit="footer-right">
+            <p style="text-align: left;">
+              <strong>Datenschutz</strong> <br/>
+
+              Registergericht: Amtsgericht Berlin-Charlottenburg <br/>
+              Register-Nummer: 210 86 Nz <br/>
+              Steuernummer: 27/672/51005 <br/>
+              Vorstandsvorsitzende: Jeannine Koch <br/>
+              Aufsichtsratsvorsitzender: Bernd Schiphorst <br/>
+              --- <br/>
+              media:net berlinbrandenburg e.V. ist das Bündnis von mehr als 420 Unternehmen der Medien- und Digitalwirtschaft in Berlin und Brandenburg.
+            </p> 
+          </div>
+          </column>
+        </row>
+        <row>
+          <column>
+            <p style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Klicken Sie hier, um sich abzumelden</a></strong></p>
+          </column>
+        </row>
+      </div>
+
+	  </container>
+  </body>
+</heml>
