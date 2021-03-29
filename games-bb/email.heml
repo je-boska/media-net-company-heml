@@ -1,6 +1,6 @@
 <heml>
   <head>
-	  <subject>games:net Berlin Brandenburg</subject>
+	  <subject>games:net berlinbrandenburg</subject>
 
     <style>
       h1 {
@@ -13,7 +13,7 @@
         margin: 0px;
       }
       .number {
-        color: #6cb391;
+        color: #60166a;
       }
       .topnews {
         color: #000000;
@@ -147,10 +147,10 @@
         <h2 style="padding: 20px;">NEWS RUND UM DIE GAMES- <br/> BRANCHE IN BERLIN</h2>
       </div>
 
-      <div mc:repeatable="events-article" mc:variant="events-article">
+      <div mc:repeatable="news-article" mc:variant="news-article">
       <row class="article">
         <column>
-          <div mc:edit="events-article-left">
+          <div mc:edit="news-article-left">
             <div>
               <h4><i>media:net COOP: <br/> Matching Day goes online</i></h4>
             </div>
@@ -160,7 +160,7 @@
           </div>
         </column>
         <column>
-          <div mc:hideable mc:edit="events-article-right">
+          <div mc:hideable mc:edit="news-article-right">
             <div>
               <h4><i>media:net COOP: <br/> Matching Day goes online</i></h4>
             </div>
