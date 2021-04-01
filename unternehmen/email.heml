@@ -59,7 +59,7 @@
       }
       .social-icons {
         text-align: center;
-        margin: 80px 0px 30px 0px;
+        margin: 30px 0px 30px 0px;
       }
       .social-icons img {
         height: 24px;
@@ -145,10 +145,10 @@
       </div>
 
       <div mc:hideable class="header-box">
-        <h2 style="padding: 20px;">NEWS - INITIATIVEN</h2>
+        <h2 mc:edit="initiativen-header-box" style="padding: 20px;">NEWS - INITIATIVEN</h2>
       </div>
 
-      <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-left">
+      <div mc:repeatable="initiativen-article" mc:variant="Initiativen Article Left">
       <row class="article" style="direction: rtl;">
         <column large="4" small="12">
           <img heml-ignore class="image image-sm" mc:edit="initiativen-article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
@@ -166,7 +166,7 @@
       </row>
       </div>
 
-      <div mc:repeatable="initiativen-article" mc:variant="initiativen-article-right">
+      <div mc:repeatable="initiativen-article" mc:variant="Initiativen Article Right">
       <row class="article">
         <column large="4" small="12">
           <img heml-ignore class="image image-sm" mc:edit="initiativen-article-right-img"src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
@@ -183,10 +183,10 @@
       </div>
 
       <div mc:hideable class="header-box">
-        <h2 style="padding: 20px;">MITGLIEDER - NEWS</h2>
+        <h2 mc:edit="mitglieder-header-box" style="padding: 20px;">MITGLIEDER - NEWS</h2>
       </div>
 
-      <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-left">
+      <div mc:repeatable="mitglieder-article" mc:variant="Mitglieder Article Left">
       <row class="article" style="direction: rtl;">
         <column large="4" small="12">
           <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
@@ -204,7 +204,7 @@
       </row>
       </div>
 
-      <div mc:repeatable="mitglieder-article" mc:variant="mitglieder-article-right">
+      <div mc:repeatable="mitglieder-article" mc:variant="Mitglieder Article Right">
       <row class="article">
         <column large="4" small="12">
           <img heml-ignore class="image image-sm" mc:edit="mitglieder-article-right-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
@@ -223,10 +223,10 @@
       <div mc:hideable>
       <row class="article">
         <column>
-          <h4>Weitere News</h4>
+          <h4 mc:edit="weitere-news-title">Weitere News</h4>
         </column>
         <column>
-          <div mc:repeatable="weitere-news" style="padding: 5px 0px;">
+          <div mc:repeatable="weitere-news" mc:variant="Weitere News Item" style="padding: 5px 0px;">
             <p class="arrow-list-item" mc:edit="weitere-news-link">
               <img width="12" height="12" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
               <img width="12" height="12" style="margin-right: 7px;" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
@@ -238,7 +238,7 @@
       </div>
 
       <div mc:hideable class="header-box">
-        <h2 style="padding: 20px;">EVENT-KALENDER</h2>
+        <h2 mc:edit="eventkalender-header-box" style="padding: 20px;">EVENT-KALENDER</h2>
       </div>
 
       <div mc:hideable>
@@ -252,7 +252,7 @@
           </div>
         </column>
         <column>
-          <div mc:repeatable="weiteres-event" style="padding: 5px 0px;">
+          <div mc:repeatable="weiteres-event" mc:variant="Weiteres Event Title" style="padding: 5px 0px;">
             <p class="arrow-list-item" mc:edit="weiteres-event-link">
               <img width="12" height="12" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
               <img width="12" height="12" style="margin-right: 7px;" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
@@ -264,10 +264,10 @@
       </div>
 
       <div mc:hideable class="header-box">
-        <h2 style="padding: 20px;">JOBS</h2>
+        <h2 mc:edit="jobs-header-box" style="padding: 20px;">JOBS</h2>
       </div>
 
-      <div mc:repeatable="job-section">
+      <div mc:repeatable="job-section" mc:variant="Job Section">
       <row>
         <column>
           <img heml-ignore class="image image-lg" mc:edit="job-image-left" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
@@ -283,10 +283,10 @@
       </div>
 
       <div mc:hideable class="header-box">
-        <h2 style="padding: 20px;">KOOPERATIONEN</h2>
+        <h2 mc:edit="kooperationen-header-box" style="padding: 20px;">KOOPERATIONEN</h2>
       </div>
 
-      <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-right">
+      <div mc:repeatable="kooperationen-article" mc:variant="Kooperationen Article Right">
       <row class="article">
         <column large="4" small="12">
           <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-right-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
@@ -302,7 +302,7 @@
       </row>
       </div>
 
-      <div mc:repeatable="kooperationen-article" mc:variant="kooperationen-article-left">
+      <div mc:repeatable="kooperationen-article" mc:variant="Kooperationen Article Left">
       <row class="article" style="direction: rtl;">
         <column large="4" small="12">
           <img heml-ignore class="image image-sm" mc:edit="kooperationen-article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
@@ -368,7 +368,7 @@
         </row>
         <row>
           <column>
-            <p style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Klicken Sie hier, um sich abzumelden</a></strong></p>
+            <p mc:edit="unsubscribe" style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Klicken Sie hier, um sich abzumelden</a></strong></p>
           </column>
         </row>
       </div>

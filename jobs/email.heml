@@ -36,7 +36,7 @@
       }
       .social-icons {
         text-align: center;
-        margin: 80px 0px 30px 0px;
+        margin: 30px 0px 30px 0px;
       }
       .social-icons img {
         height: 24px;
@@ -59,10 +59,10 @@
 
       <row>
         <column>
-          <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/9806b1e6-4e64-467a-a801-2ac24b76b0ba.png" alt="media:net JOBBÖRSE" width="100%" />
           <h5 mc:edit="date" style="font-weight: 500; text-align: right;">
             DATE HERE
           </h5>
+          <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/44dfc05b-f6d8-4f08-b2f2-05f70d2dee33.png" alt="media:net JOBBÖRSE" width="100%" />
         </column>
       </row>
 
@@ -164,7 +164,7 @@
         </row>
         <row>
           <column>
-            <p style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Klicken Sie hier, um sich abzumelden</a></strong></p>
+            <p mc:edit="unsubscribe" style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Klicken Sie hier, um sich abzumelden</a></strong></p>
           </column>
         </row>
       </div>

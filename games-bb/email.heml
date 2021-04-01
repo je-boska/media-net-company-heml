@@ -60,7 +60,7 @@
       }
       .social-icons {
         text-align: center;
-        margin: 80px 0px 30px 0px;
+        margin: 30px 0px 30px 0px;
       }
       .social-icons img {
         height: 24px;
@@ -85,10 +85,10 @@
 
       <row>
         <column>
-          <img style="margin-top: 30px;" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/70594098-33ac-4996-a37a-9dd057b80885.png" alt="media:net JOBBÖRSE" width="100%" />
           <h5 mc:edit="date" style="font-weight: 500; text-align: right;">
             DATE HERE
           </h5>
+          <img style="margin-top: 30px;" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/70594098-33ac-4996-a37a-9dd057b80885.png" alt="media:net JOBBÖRSE" width="100%" />
         </column>
       </row>
 
@@ -144,10 +144,10 @@
       </div>
 
       <div mc:hideable class="header-box">
-        <h2 style="padding: 20px;">NEWS RUND UM DIE GAMES- <br/> BRANCHE IN BERLIN</h2>
+        <h2 mc:edit="news-header-box" style="padding: 20px;">NEWS RUND UM DIE GAMES- <br/> BRANCHE IN BERLIN</h2>
       </div>
 
-      <div mc:repeatable="news-article" mc:variant="news-article">
+      <div mc:repeatable="news-article" mc:variant="News Article">
       <row class="article">
         <column>
           <div mc:edit="news-article-left">
@@ -173,10 +173,10 @@
       </div>
 
       <div mc:hideable class="header-box">
-        <h2 style="padding: 20px;">(ONLINE) EVENTS</h2>
+        <h2 mc:edit="events-header-box" style="padding: 20px;">(ONLINE) EVENTS</h2>
       </div>
 
-      <div mc:repeatable="events-article" mc:variant="events-article-right">
+      <div mc:repeatable="events-article" mc:variant="Events Article Right">
       <row class="article">
         <column large="4" small="12">
           <img heml-ignore class="image image-sm" mc:edit="events-article-right-img"src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
@@ -192,7 +192,7 @@
       </row>
       </div>
 
-      <div mc:repeatable="events-article" mc:variant="events-article-left">
+      <div mc:repeatable="events-article" mc:variant="Events Article Left">
       <row class="article" style="direction: rtl;">
         <column large="4" small="12">
           <img heml-ignore class="image image-sm" mc:edit="events-article-left-img" src="https://res.cloudinary.com/dpguh80ki/image/upload/v1615563039/media-net/pexels-lone-jensen-resized_sun6t6.jpg" />
@@ -258,7 +258,7 @@
         </row>
         <row>
           <column>
-            <p style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Klicken Sie hier, um sich abzumelden</a></strong></p>
+            <p mc:edit="unsubscribe" style="text-align: center;"><strong><a style="text-decoration: none; color: black;" href="*|UNSUB|*">Klicken Sie hier, um sich abzumelden</a></strong></p>
           </column>
         </row>
       </div>
