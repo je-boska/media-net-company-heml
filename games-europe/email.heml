@@ -88,7 +88,7 @@
           <h5 mc:edit="date" style="font-weight: 500; text-align: right;">
             DATE HERE
           </h5>
-          <img style="margin-top: 30px;" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/9c30bd8e-c1d9-445c-adb1-05de52bbded3.png" alt="media:net JOBBÖRSE" width="100%" />
+          <img src="https://mcusercontent.com/7140691abc4c72842929acd78/images/9c30bd8e-c1d9-445c-adb1-05de52bbded3.png" alt="games:net Berlin Europe" width="100%" />
         </column>
       </row>
 
@@ -225,8 +225,13 @@
         <row>
           <column>
             <p mc:edit="footer-sponsor">
-              The project is financed by the EUROPEAN REGIONAL DEVELOPMENT FUND and the State of Berlin, Senate Department of Economics, Energy, and Public Enterprises through its Program for Internationalization.
+              The project is financed by the European Regional Development Fund and the State of Berlin, Senate Department of Economics, Energy, and Public Enterprises through its Program for Internationalization.
             </p>
+          </column>
+        </row>
+        <row>
+          <column>
+            <img width="100%" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/b126f20f-8a8a-4f87-965c-a17b402425a2.png" alt="sponsors" />
           </column>
         </row>
         <row>
