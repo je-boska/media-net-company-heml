@@ -252,7 +252,7 @@
           </div>
         </column>
         <column>
-          <div mc:repeatable="weiteres-event" mc:variant="Weiteres Event Title" style="padding: 5px 0px;">
+          <div mc:repeatable="weiteres-event" mc:variant="Weiteres Event Item" style="padding: 5px 0px;">
             <p class="arrow-list-item" mc:edit="weiteres-event-link">
               <img width="12" height="12" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
               <img width="12" height="12" style="margin-right: 7px;" class="fwd-arrow" src="https://mcusercontent.com/7140691abc4c72842929acd78/images/0667ac9f-e5e6-4626-82fe-840fd59f4e37.png" alt="Arrow, right" />
